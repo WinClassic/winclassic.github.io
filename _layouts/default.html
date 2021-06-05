@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>{{page.title}}</title>
+    <link href="/assets/98.css" rel="stylesheet">
+    <link href="/assets/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="taskbar">
+        <button class="start-button"><img src="/assets/startIcon95.png" width=16 height=16> Start</button>
+        <div class="taskband-button">{{page.title |default: "Untitled"}}</div>
+    </div>
+    <div class="center-container">
+        
+        <div gui="98" class="window">
+            <div class="title-bar">
+                <div class="title-bar-text">{{page.title |default: "Untitled"}}</div>
+            </div>
+            <div class="window-body">
+                <div class="navigation-icons">
+                    <a class="navigation-icon" href="/">
+                        <img src="/assets/home_16.png">
+                        <span>Home</span>
+                    </a>
+                    <a class="navigation-icon" href="/quickstart">
+                        <img src="/assets/help_16.png">
+                        <span>Quick Start</span>
+                    </a>
+                    <a class="navigation-icon" href="https://github.com/WinClassic/winclassic.github.io/issues">
+                        <img src="/assets/warning_16.png">
+                        <span>GitHub Issues</span>
+                    </a>
+                    <a class="navigation-icon" href="https://winclassic.boards.net/">
+                        <img src="/assets/winclassic_16.png">
+                        <span>WinClassic Forums</span>
+                    </a>
+                </div>
+                <div>
+                    {{content}}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
