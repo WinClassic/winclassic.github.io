@@ -89,7 +89,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
 
 
-### Issues and Workarounds:
+## Issues and Workarounds:
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
 
