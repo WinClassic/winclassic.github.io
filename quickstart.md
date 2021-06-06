@@ -15,11 +15,11 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
 ## Methods to Enabling Classic Theme
 
-1. **SimpleClassicTheme**
+1. **Simple Classic Theme**
 
     An installer program that installs and configures your Win8/10 system for using CT.
     
-    **Compatible with Windows 8.1/10 builds 1809 and up.**
+    **Compatible with Windows 8.1/10 (Only tested on Windows 8.1 and Windows 10 builds 1809 and up.)**
 
     Link: <https://winclassic.boards.net/thread/456/reversibly-enable-disable-classic-simple>
 
@@ -43,7 +43,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
     A means to enable Classic theme from a Powershell window.
     
-    **Compatible with Windows 8/8.1/10.**
+    **Compatible with Windows 8.1/10.**
 
     Link: <https://winclassic.boards.net/thread/413/reversibly-enable-disable-classic-powershell>
 
@@ -51,15 +51,23 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
     A method to enable classic theme by using the Task Scheduler.
     
-    **Compatible with Windows 8.1 (Windows 8/10 untested). Requires ClassicThemeTray.**
+    **Compatible with Windows 8.1 (Windows 10 untested). Requires ClassicThemeTray.**
 
     Link: <https://winclassic.boards.net/thread/43/windows-classic-theme-task-scheduler>
+    
+6. **Disable DWM**
+
+    Most risky method of enabling classic theme. Should only be used if not on Windows 8.1/10 as it has a lot of negative side effects.
+    
+    **Only use this on Windows 8 as this will break other versions.**
+    
+    Link: <https://winclassic.boards.net/thread/121/classic-theme-dwm-disabler>
 
 ## Tweaks and Additional Software
 
 ### Taskbars
 
-1. **SimpleClassicThemeTaskbar**
+1. **Simple Classic Theme Taskbar**
 
     A classic taskbar aimed at replicating the original Windows taskbar in Windows 9x/early NT versions. Feature rich; skin support, as well as a host of customization options. Included as part of SimpleClassicTheme. 
 
@@ -82,7 +90,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
 
 
-### Issues and Workarounds:
+## Issues and Workarounds:
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
 
