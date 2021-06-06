@@ -7,7 +7,7 @@ title: "Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10"
 
 This is a quick guide to enable and use Classic theme on your Windows 8/8.1/10 installation. If you have issues or need help, please see the section below or if it’s unique, post it in the “Classic Theme Issues” section of the boards.
 
-**Please note:** Classic theme is deprecated by Microsoft and is no longer supported by them. Many elements have either become broken over the passage of time (e.g. the taskbar in W10, c  ontext menus appearing empty) or issues have arisen such as newer programs not rendering properly. **In layman’s terms, Classic theme is old, and Microsoft have broken things over the course of development of Windows.** 
+**Please note:** Classic theme is deprecated by Microsoft and is no longer supported by them. Many elements have either become broken over the passage of time (e.g. the taskbar in Windows 10, context menus appearing empty) or issues have arisen such as newer programs not rendering properly. **In layman’s terms, Classic theme is old, and Microsoft have broken things over the course of development of Windows.** 
 
 WinClassic is a small community of people that aims to keep Classic theme alive as much as possible. If you decide to you want to use Classic theme on your system, you do so at your own endeavor.
 
@@ -70,6 +70,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Link: <https://github.com/dremin/RetroBar>
 
 3. **ReactOS Taskbar**
+
     “Port” of the (older) ReactOS Explorer’s taskbar to Windows by Spitfire_x86. Has it’s fair share of issues, and is obsolete nowadays.
     
     Link: <https://winclassic.boards.net/thread/177/reactos-taskbar-win10-desktop-classic>
