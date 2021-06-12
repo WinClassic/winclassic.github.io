@@ -65,6 +65,23 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
 ## Tweaks and Additional Software
 
+### Start Menus
+
+1. **Open-Shell**
+
+    Formally called Classic Shell, Open Shell is a free start menu replacer with skin support and massive customization potential. If you want to replicate the Windows 95 start menu or even the Windows 7 start menu, you can. It even has it's own toolbar for Windows Explorer, and (limited) taskbar customization options. Supported by most classic taskbar programs, included SimpleClassicTheme Taskbar, RetroBar and  ReactOS taskbar.
+    Link: <https://github.com/Open-Shell/Open-Shell-Menu>
+    
+2. **StartisBack**
+
+    Commercial alternative to Open-Shell. While Open/Classic-Shell aims to replicate older Windows Start menu styles as skins, StartisBack actually brings back the original Windows 7 start button via reverse engineering. It also allows for far greater taskbar customization with complex skins available (see the "Taskbars" portion of this section for one).
+    Link: <https://www.startisback.com/#download-tab>
+    
+2. **StarDock Start8/10/WindowBlinds**
+
+    Products from StarDock that allow you to apply skins to your start menu, taskbar, desktop and even program windows themselves. Has a rich selection of skin to download and try, but it's also a little resource hungry.
+    Link: <https://www.stardock.com/products/>
+    
 ### Taskbars
 
 1. **Simple Classic Theme Taskbar**
@@ -88,6 +105,25 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Highly detailed and authentic replica skin of the Windows 7 classic taskbar, by Spitfire_x86. Skin for the program “StartisBack”, which is commercial.
 
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
+    
+### 3D Borders:
+
+    To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
+    **Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation.**
+    Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
+    
+  ### Remove Address Bar:
+
+    If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install Autohotkey and then apply the script by double-clicking it to get rid of the address bar.
+    Autohotkey: <https://www.autohotkey.com/>
+    Script: <https://winclassic.boards.net/thread/756/resource-library>  
+    
+### Alternative Address Bar:
+
+    In recent Windows 10 builds the address bar has had some changes made to it that don't really gel with Classic theme. An alternative address bar called "Quero" can be found at the link below. Sadly, it was designed for Internet Explorer in mind, so there are a few annoyances with it - see the "Issues and Workarounds" sections for possible solutions.
+    Link: <http://www.quero.at/>
+    Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
+    ** Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1.**
 
 
 ## Issues and Workarounds:
@@ -119,3 +155,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 5. **The Windows taskbar is missing text and is all glitched out on Windows 10 sometimes. Why?**
 
     That’s what’s left of the old, original taskbar; the usual one W10 uses places itself over the old one. Microsoft have broken the taskbar when it’s run in classic theme and that’s what you’re seeing when Windows bugs out. Simply put, it’s best to just use an alternative taskbar altogether. See the “Taskbar” portion of the “Tweaks & Additional Software” section of this guide for more information.
+    
+6. **I installed the Quero address bar, but now I can't use keyboard shortcuts. What's the deal with that? **    
+
+    Quero was designed with Internet Explorer in mind; it working on Windows Explorer is just a side effect of Microsoft's shaddy practices during the Windows 95 days. Point in case, you need to either use an Autohotkey script to workaround this or remove a file from Quero's program folder which causes this to happen. More information can be found here, in this thread: <https://winclassic.boards.net/thread/771/solution-keyboard-shortcuts-quero-on>
