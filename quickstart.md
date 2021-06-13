@@ -7,7 +7,10 @@ title: "Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10"
 
 This is a quick guide to enable and use Classic theme on your Windows 8/8.1/10 installation. If you have issues or need help, please see the section below or if it’s unique, post it in the “Classic Theme Issues” section of the boards.
 
-**Please note:** Classic theme is deprecated by Microsoft and is no longer supported by them. Many elements have either become broken over the passage of time (e.g. the taskbar in Windows 10, context menus appearing empty) or issues have arisen such as newer programs not rendering properly. **In layman’s terms, Classic theme is old, and Microsoft have broken things over the course of development of Windows.** 
+{% capture disclaimer %}
+Classic theme is deprecated by Microsoft and is no longer supported by them. Many elements have either become broken over the passage of time (e.g. the taskbar in Windows 10, context menus appearing empty) or issues have arisen such as newer programs not rendering properly. <b>In layman’s terms, Classic theme is old, and Microsoft have broken things over the course of development of Windows.</b> 
+{% endcapture %}
+{% include balloon.html title="Please note" description=disclaimer %}
 
 WinClassic is a small community of people that aims to keep Classic theme alive as much as possible. If you decide to you want to use Classic theme on your system, you do so at your own endeavor.
 
@@ -123,10 +126,13 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     In recent Windows 10 builds the address bar has had some changes made to it that don't really gel with Classic theme. An alternative address bar called "Quero" can be found at the link below. Sadly, it was designed for Internet Explorer in mind, so there are a few annoyances with it - see the "Issues and Workarounds" sections for possible solutions.
     Link: <http://www.quero.at/>
     Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
-    ** Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1.**
 
 
 ## Issues and Workarounds:
+{% capture quero-disclaimer %}
+Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1.
+{% endcapture %}
+{% include balloon.html title="About Quero installation" description=quero-disclaimer icon="bulb_16.png" %}
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
 
