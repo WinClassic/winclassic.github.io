@@ -74,7 +74,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     
 2. **StartisBack**
 
-    Commercial alternative to Open-Shell. While Open/Classic-Shell aims to replicate older Windows Start menu styles as skins, StartisBack actually brings back the original Windows 7 start button via reverse engineering. It also allows for far greater taskbar customization with complex skins available (see the "Taskbars" portion of this section for one).
+    Commercial alternative to Open-Shell. While Open/Classic-Shell aims to replicate older Windows Start menu styles as skins, StartisBack actually brings back the original Windows 7 start menu via reverse engineering. It also allows for far greater taskbar customization with complex skins available (see the "Taskbars" portion of this section for one).
     Link: <https://www.startisback.com/#download-tab>
     
 2. **StarDock Start8/10/WindowBlinds**
@@ -106,19 +106,19 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
     
-### 3D Borders:
+    ### 3D Borders:
 
     To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
     **Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation.**
     Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
     
-  ### Remove Address Bar:
+    ### Remove Address Bar:
 
     If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install Autohotkey and then apply the script by double-clicking it to get rid of the address bar.
     Autohotkey: <https://www.autohotkey.com/>
     Script: <https://winclassic.boards.net/thread/756/resource-library>  
     
-### Alternative Address Bar:
+    ### Alternative Address Bar:
 
     In recent Windows 10 builds the address bar has had some changes made to it that don't really gel with Classic theme. An alternative address bar called "Quero" can be found at the link below. Sadly, it was designed for Internet Explorer in mind, so there are a few annoyances with it - see the "Issues and Workarounds" sections for possible solutions.
     Link: <http://www.quero.at/>
