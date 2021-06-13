@@ -1,0 +1,26 @@
+button {
+    @include raised;
+    background: $control;
+
+    font-size: 11px;
+    box-sizing: border-box;
+    border: none;
+    
+    border-radius: 0;
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px
+}
+
+button:not(:disabled).active, button:not(:disabled):active {
+    @include sunken;
+}
+
+button.focused, button:focus {
+    outline: 1px dotted #000;
+    outline-offset: -4px
+}
+
+button::-moz-focus-inner {
+    border: 0
+}

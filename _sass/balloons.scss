@@ -1,0 +1,19 @@
+.balloon {
+    background-color: $tooltip;
+    border: black 1px solid;
+    border-radius: 8px;
+    padding: 9px 12px;
+}
+
+.balloon-header {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.balloon-title {
+    font-weight: bold;
+}
+
+.balloon-icon {
+    margin-right: 9px;
+}

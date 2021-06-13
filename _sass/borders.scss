@@ -1,0 +1,20 @@
+// Unline [raised], [raised-button] has it's highlight first.
+@mixin raised-button {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light-light, inset -2px -2px $control-dark, inset 2px 2px $control-light;
+}
+
+@mixin raised {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light, inset -2px -2px $control-dark, inset 2px 2px $control-light-light;
+}
+
+@mixin raised-inner {
+    box-shadow: inset -1px -1px $control-dark-dark, inset 1px 1px $control-light-light;
+}
+
+@mixin sunken {
+    box-shadow: inset -1px -1px $control-light-light, inset 1px 1px $control-dark, inset -2px -2px $control-light,inset 2px 2px $control-dark-dark;
+}
+
+@mixin sunken-outer {
+     box-shadow: inset -1px -1px $control-light-light, inset 1px 1px $control-dark;
+}

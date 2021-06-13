@@ -1,4 +1,5 @@
-/*! 98.css v1.0.0 -  */
+// 98.css v1.0.0
+// Edited by Craftplacer
 
 @font-face {
     font-family: "Pixelated MS Sans Serif";
@@ -18,30 +19,11 @@
 
 @font-face {
     font-family: Perfect DOS VGA\ 437 Win;
-    src: url("/assets/font/PerfectDOSVGA437Win.woff2") format("woff2"), url("/assets/font/PerfectDOSVGA437Win.woff") format("woff");
-    font-weight: 400;
+    src: url("/assets/font/PerfectDOSVGA437Win.woff2") format("woff2"), url("/assets/font/PerfectDOSVGA437Win.woff") format("woff"); font-weight: 400;
     font-style: normal
 }
 
-.surface {
-    background: silver
-}
-
-h1 {
-    font-size: 5rem
-}
-
-h2 {
-    font-size: 2.5rem
-}
-
-h3 {
-    font-size: 2rem
-}
-
-h4 {
-    font-size: 1.5rem
-}
+.surface { background: $control }
 
 u {
     text-decoration: none;
@@ -56,95 +38,8 @@ a:focus {
     outline: 1px dotted #00f
 }
 
-code, code * {
-    font-family: monospace
-}
-
-pre {
-    display: block;
-    padding: 12px 8px;
-    background-color: #000;
-    color: silver;
-    font-size: 1rem;
-    margin: 0
-}
-
-pre, pre * {
-    font-family: Perfect DOS VGA\ 437 Win
-}
-
 summary:focus {
     outline: 1px dotted #000
-}
-
-::-webkit-scrollbar {
-    width: 16px
-}
-
-::-webkit-scrollbar:horizontal {
-    height: 17px
-}
-
-::-webkit-scrollbar-corner {
-    background: #dfdfdf
-}
-
-::-webkit-scrollbar-track {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='2' height='2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1 0H0v1h1v1h1V1H1V0z' fill='silver'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 0H1v1H0v1h1V1h1V0z' fill='%23fff'/%3E%3C/svg%3E")
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #dfdfdf;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf
-}
-
-::-webkit-scrollbar-button:horizontal:end:increment, ::-webkit-scrollbar-button:horizontal:start:decrement, ::-webkit-scrollbar-button:vertical:end:increment, ::-webkit-scrollbar-button:vertical:start:decrement {
-    display: block
-}
-
-::-webkit-scrollbar-button:vertical:start {
-    height: 17px;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 6H7v1H6v1H5v1H4v1h7V9h-1V8H9V7H8V6z' fill='%23000'/%3E%3C/svg%3E")
-}
-
-::-webkit-scrollbar-button:vertical:end {
-    height: 17px;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 6H4v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6z' fill='%23000'/%3E%3C/svg%3E")
-}
-
-::-webkit-scrollbar-button:horizontal:start {
-    width: 16px;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 4H8v1H7v1H6v1H5v1h1v1h1v1h1v1h1V4z' fill='%23000'/%3E%3C/svg%3E")
-}
-
-::-webkit-scrollbar-button:horizontal:end {
-    width: 16px;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 4H6v7h1v-1h1V9h1V8h1V7H9V6H8V5H7V4z' fill='%23000'/%3E%3C/svg%3E")
-}
-
-button {
-    font-size: 11px;
-    box-sizing: border-box;
-    border: none;
-    background: silver;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border-radius: 0;
-    min-width: 75px;
-    min-height: 23px;
-    padding: 0 12px
-}
-
-button:not(:disabled).active, button:not(:disabled):active {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey
-}
-
-button.focused, button:focus {
-    outline: 1px dotted #000;
-    outline-offset: -4px
-}
-
-button::-moz-focus-inner {
-    border: 0
 }
 
 label {
@@ -153,11 +48,7 @@ label {
 }
 
 input, label, textarea, select, option, ul.tree-view, .window {
-    font-family: "Pixelated MS Sans Serif", "MS Sans Serif", Arial;
-    font-size: 11px;
-    -webkit-font-smoothing: none;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: grayscale;
+    @include ui-font;
 }
 
 textarea {
@@ -185,7 +76,7 @@ select {
     -moz-appearance: none;
     position: relative;
     padding: 3px 32px 3px 4px;
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 6H4v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6z' fill='%23000'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='$control' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 6H4v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6z' fill='%23000'/%3E%3C/svg%3E");
     background-position: top 2px right 2px;
     background-repeat: no-repeat;
     border-radius: 0
@@ -203,18 +94,18 @@ select:focus option {
 }
 
 select:active {
-    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h16v17H0V0zm1 16h14V1H1v15z' fill='gray'/%3E%3Cpath fill='silver' d='M1 1h14v15H1z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 7H5v1h1v1h1v1h1v1h1v-1h1V9h1V8h1V7z' fill='%23000'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 0h16v17H0V0zm1 16h14V1H1v15z' fill='gray'/%3E%3Cpath fill='$control' d='M1 1h14v15H1z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 7H5v1h1v1h1v1h1v1h1v-1h1V9h1V8h1V7z' fill='%23000'/%3E%3C/svg%3E")
 }
 
 .vertical-bar {
     width: 4px;
     height: 20px;
-    background: silver;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf
+    background: $control;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px $control-dark, inset 2px 2px #dfdfdf
 }
 
-&:disabled, &:disabled+label {
-    color: grey;
+*:disabled, *:disabled+label {
+    color: $gray-text;
     text-shadow: 1px 1px 0 #fff
 }
 
@@ -248,7 +139,7 @@ input[type=radio]+label:before {
 }
 
 input[type=radio]:active+label:before {
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='silver'/%3E%3C/svg%3E")
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='$control'/%3E%3C/svg%3E")
 }
 
 input[type=radio]:checked+label:after {
@@ -266,64 +157,13 @@ input[type=radio]:focus+label {
     outline: 1px dotted #000
 }
 
-input[type=checkbox] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    margin: 0;
-    background: 0;
-    position: fixed;
-    opacity: 0;
-    border: none
-}
-
-input[type=checkbox]+label {
-    line-height: 13px;
-    position: relative;
-    margin-left: 19px
-}
-
-input[type=checkbox]+label:before {
-    content: "";
-    position: absolute;
-    left: -19px;
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    margin-right: 6px
-}
-
-input[type=checkbox]:focus+label {
-    outline: 1px dotted #000
-}
-
-input[type=checkbox]:active+label:before {
-    background: silver
-}
-
-input[type=checkbox]:checked+label:after {
-    content: "";
-    display: block;
-    width: 7px;
-    height: 7px;
-    position: absolute;
-    top: 1px
-}
 
 input[type=radio][disabled]+label:before {
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='silver'/%3E%3C/svg%3E")
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 0H4v1H2v1H1v2H0v4h1v2h1V8H1V4h1V2h2V1h4v1h2V1H8V0z' fill='gray'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 1H4v1H2v2H1v4h1v1h1V8H2V4h1V3h1V2h4v1h2V2H8V1z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 3h1v1H9V3zm1 5V4h1v4h-1zm-2 2V9h1V8h1v2H8zm-4 0v1h4v-1H4zm0 0V9H2v1h2z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 2h-1v2h1v4h-1v2H8v1H4v-1H2v1h2v1h4v-1h2v-1h1V8h1V4h-1V2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 2h4v1h1v1h1v4H9v1H8v1H4V9H3V8H2V4h1V3h1V2z' fill='$control'/%3E%3C/svg%3E")
 }
 
 input[type=radio][disabled]:checked+label:after {
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='4' height='4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M3 0H1v1H0v2h1v1h2V3h1V1H3V0z' fill='gray'/%3E%3C/svg%3E")
-}
-
-input[type=checkbox][disabled]+label:before {
-    background: silver
-}
-
-input[type=checkbox][disabled]:checked+label:after {
-    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='7' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 0H6v1H5v1H4v1H3v1H2V3H1V2H0v3h1v1h1v1h1V6h1V5h1V4h1V3h1V0z' fill='gray'/%3E%3C/svg%3E")
 }
 
 input[type=email], input[type=password], input[type=text] {
@@ -375,8 +215,8 @@ input[type=range]::-webkit-slider-runnable-track {
     height: 2px;
     box-sizing: border-box;
     background: #000;
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-right: 1px solid $control-dark;
+    border-bottom: 1px solid $control-dark;
     box-shadow: 1px 0 0 #fff, 1px 1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #a9a9a9, -1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, -1px 1px 0 #fff, 1px -1px #a9a9a9
 }
 
@@ -385,8 +225,8 @@ input[type=range]::-moz-range-track {
     height: 2px;
     box-sizing: border-box;
     background: #000;
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-right: 1px solid $control-dark;
+    border-bottom: 1px solid $control-dark;
     box-shadow: 1px 0 0 #fff, 1px 1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #a9a9a9, -1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, -1px 1px 0 #fff, 1px -1px #a9a9a9
 }
 
@@ -416,16 +256,16 @@ input[type=range].has-box-indicator::-moz-range-thumb {
 }
 
 .is-vertical>input[type=range]::-webkit-slider-runnable-track {
-    border-left: 1px solid grey;
+    border-left: 1px solid $control-dark;
     border-right: 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid $control-dark;
     box-shadow: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #a9a9a9, 1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, 1px 1px 0 #fff, -1px -1px #a9a9a9
 }
 
 .is-vertical>input[type=range]::-moz-range-track {
-    border-left: 1px solid grey;
+    border-left: 1px solid $control-dark;
     border-right: 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid $control-dark;
     box-shadow: -1px 0 0 #fff, -1px 1px 0 #fff, 0 1px 0 #fff, 1px 0 0 #a9a9a9, 1px -1px 0 #a9a9a9, 0 -1px 0 #a9a9a9, 1px 1px 0 #fff, -1px -1px #a9a9a9
 }
 
@@ -446,9 +286,9 @@ input[type=range].has-box-indicator::-moz-range-thumb {
 }
 
 .window {
+    @include raised;
     font-size: 11px;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
-    background: silver;
+    background: $control;
     padding: 3px
 }
 
@@ -458,7 +298,7 @@ input[type=range].has-box-indicator::-moz-range-thumb {
 
 .title-bar {
     font-size: 11px;
-    background: linear-gradient(90deg, navy, #1084d0);
+    background: linear-gradient(90deg, $active-caption, $gradient-active-caption);
     padding: 3px 2px 3px 3px;
     display: flex;
     justify-content: space-between;
@@ -495,102 +335,16 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     margin: -8px
 }
 
-ul.tree-view {
-    display: block;
-    background: #fff;
-    padding: 6px;
-    margin: 0
-}
-
-ul.tree-view li {
-    list-style-type: none;
-    margin-top: 3px
-}
-
-ul.tree-view a {
-    text-decoration: none;
-    color: #000
-}
-
-ul.tree-view a:focus {
-    background-color: navy;
-    color: #fff
-}
-
-ul.tree-view ul {
-    margin-top: 3px;
-    margin-left: 16px;
-    padding-left: 16px;
-    border-left: 1px dotted grey
-}
-
-ul.tree-view ul>li {
-    position: relative
-}
-
-ul.tree-view ul>li:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -16px;
-    top: 6px;
-    width: 12px;
-    border-bottom: 1px dotted grey
-}
-
-ul.tree-view ul>li:last-child:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -20px;
-    top: 7px;
-    bottom: 0;
-    width: 8px;
-    background: #fff
-}
-
-ul.tree-view ul details>summary:before {
-    margin-left: -22px;
-    position: relative;
-    z-index: 1
-}
-
-ul.tree-view details {
-    margin-top: 0
-}
-
-ul.tree-view details>summary:before {
-    text-align: center;
-    display: block;
-    float: left;
-    content: "+";
-    border: 1px solid grey;
-    width: 8px;
-    height: 9px;
-    line-height: 9px;
-    margin-right: 5px;
-    padding-left: 1px;
-    background-color: #fff
-}
-
-ul.tree-view details[open] summary {
-    margin-bottom: 0
-}
-
-ul.tree-view details[open]>summary:before {
-    content: "-"
-}
-
 fieldset {
     border: none;
-    box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px $control-dark, inset 2px 2px #dfdfdf;
     padding: 10px;
     padding-block-start: 8px;
     margin: 0
 }
 
 legend {
-    background: silver
+    background: $control
 }
 
 .field-row {
@@ -635,7 +389,7 @@ menu[role=tablist] button {
 menu[role=tablist] button[aria-selected=true] {
     padding-bottom: 2px;
     margin-top: -2px;
-    background-color: silver;
+    background-color: $control;
     position: relative;
     z-index: 8;
     margin-left: -3px;
@@ -655,7 +409,7 @@ menu[role=tablist].justified button {
 [role=tabpanel] {
     padding: 14px;
     clear: both;
-    background: silver;
+    background: $control;
     border: none;
     position: relative;
     z-index: 2;
@@ -670,12 +424,8 @@ body {
 
 @media (not(hover)) {
     button:not(:disabled):hover {
-        box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey
+        box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px $control-dark
     }
-}
-
-pre {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a
 }
 
 .title-bar {
@@ -708,7 +458,7 @@ pre {
 }
 
 input[type=checkbox]+label:before {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px $control-dark, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
     background: #fff
 }
 
@@ -719,7 +469,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 input[type=email], input[type=password], input[type=text], select, textarea {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a
+    box-shadow: inset -1px -1px #fff, inset 1px 1px $control-dark, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a
 }
 
 input, label, option, select, textarea {
@@ -728,7 +478,7 @@ input, label, option, select, textarea {
 
 menu[role=tablist] button {
     top: 3px;
-    background: silver;
+    background: $control;
     box-shadow: inset 1px 1px #fff, inset 2px 2px #dfdfdf, inset -1px 0 #000, inset -2px 0 #7f7f7f;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -760,11 +510,11 @@ menu[role=tablist] button[aria-selected=true]:first-of-type {
 }
 
 [role=tabpanel] {
-    box-shadow: inset 1px 1px #fff, inset 2px 2px #dfdfdf, inset -1px -1px #0a0a0a, inset -2px -2px grey
+    box-shadow: inset 1px 1px #fff, inset 2px 2px #dfdfdf, inset -1px -1px #0a0a0a, inset -2px -2px $control-dark
 }
 
 button {
-    font-family: "Pixelated MS Sans Serif", Arial
+    @include ui-font;
 }
 
 button, ul.tree-view {
@@ -772,42 +522,9 @@ button, ul.tree-view {
 }
 
 ul.tree-view {
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a
+    box-shadow: inset -1px -1px #fff, inset 1px 1px $control-dark, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a
 }
 
-progress {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    width: 250px;
-    height: 15px;
-    border-radius: 0;
-    background-color: silver;
-    border-color: #000 #fff #fff #000;
-    border-style: solid;
-    border-width: 1px 2px 2px 1px;
-    padding: 2px;
-    box-shadow: 0 -2px 0 grey, -2px 0 0 grey, -2px -2px 0 grey;
-    image-rendering: crisp-edges
-}
-
-progress::-webkit-progress-bar {
-    background-color: silver;
-    border-radius: 0
-}
-
-progress::-webkit-progress-value {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAOCAYAAAAWo42rAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5AcNFAAkJmcYhAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAtSURBVCjPYzxw4MB/BiIACwMDA4ODwwG8ig4ccGBgYiASjCocrApZYHFJCAAAmGcIH2MNGHUAAAAASUVORK5CYII=");
-    background-size: contain;
-    background-repeat: repeat-x
-}
-
-progress::-moz-progress-bar {
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAOCAYAAAAWo42rAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5AcNFAAkJmcYhAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAtSURBVCjPYzxw4MB/BiIACwMDA4ODwwG8ig4ccGBgYiASjCocrApZYHFJCAAAmGcIH2MNGHUAAAAASUVORK5CYII=");
-    background-size: contain;
-    background-repeat: repeat-x
-}
 
 hr {
     border: none;
@@ -815,4 +532,9 @@ hr {
     border-bottom: 1px solid #fff
 }
 
-/*# sourceMappingURL=98.css.map */
+@import 'balloons.scss';
+@import 'buttons.scss';
+@import 'scrollbars.scss';
+@import 'checkboxes.scss';
+@import 'progressbars.scss';
+@import 'treeview.scss';

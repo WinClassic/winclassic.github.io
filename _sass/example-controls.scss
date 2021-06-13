@@ -1,0 +1,16 @@
+.example-button, .example-textbox {
+    @include ui-font;
+}
+
+.example-button {
+    @include raised-button;
+    background: $control;
+    padding: 4px 8px;
+}
+
+.example-textbox {
+    @include sunken;
+    background-color: $window;
+    box-sizing: border-box;
+    padding: 3px 4px;
+}

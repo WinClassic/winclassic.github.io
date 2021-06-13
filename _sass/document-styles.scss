@@ -1,0 +1,59 @@
+
+.document {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    overflow: scroll;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Arial', sans-serif;
+    }
+
+    h1 {
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 12pt;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    h3 {
+        font-size: 12pt;
+        font-weight: normal;
+    }
+
+    table {
+        border-collapse: collapse;
+
+        ul {
+            padding-inline-start: 14pt;
+        }
+    }
+
+    table, td, th {
+        border: 1px solid #000;
+    }
+
+    /* Reduce indent for text inside cells */
+    table > * {
+        vertical-align: top;
+    }
+
+    th {
+        @include raised-button;
+        @include ui-font;
+
+        background: $control;
+        font-weight: normal;
+        padding: 4px 8px;
+    }
+}
+
+.document-content {
+    padding: 10px;
+    padding-block-start: 8px;
+    height: 500px;
+    max-height: calc(100vh - 76px);
+}

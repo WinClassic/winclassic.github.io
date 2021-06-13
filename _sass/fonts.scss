@@ -1,0 +1,17 @@
+@mixin alised-font {
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: grayscale;
+}
+
+@mixin ui-font {
+    @include alised-font;
+    font-family: $ui-font-family;
+    font-size: $ui-font-size;
+}
+
+@mixin code-font {
+    @include alised-font;
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+}

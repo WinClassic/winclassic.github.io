@@ -1,0 +1,51 @@
+input[type=checkbox][disabled]+label:before {
+    background: $control
+}
+
+input[type=checkbox][disabled]:checked+label:after {
+    background: url("data:image/svg+xml;charset=utf-8,%3Csvg width='7' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 0H6v1H5v1H4v1H3v1H2V3H1V2H0v3h1v1h1v1h1V6h1V5h1V4h1V3h1V0z' fill='gray'/%3E%3C/svg%3E")
+}
+
+input[type=checkbox] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0;
+    background: 0;
+    position: fixed;
+    opacity: 0;
+    border: none
+}
+
+input[type=checkbox]+label {
+    line-height: 13px;
+    position: relative;
+    margin-left: 19px
+}
+
+input[type=checkbox]+label:before {
+    content: "";
+    position: absolute;
+    left: -19px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 6px
+}
+
+input[type=checkbox]:focus+label {
+    outline: 1px dotted #000
+}
+
+input[type=checkbox]:active+label:before {
+    background: $control
+}
+
+input[type=checkbox]:checked+label:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 1px
+}

@@ -1,0 +1,82 @@
+---
+---
+
+@import 'variables.scss';
+@import 'borders.scss';
+@import 'fonts.scss';
+
+@import 'classic/classic.scss';
+
+@import 'document-styles.scss';
+@import 'highlighting.scss';
+@import 'taskbar.scss';
+@import 'navigation.scss';
+@import 'example-controls.scss';
+
+body {
+    @include ui-font;
+    background: $desktop;
+    margin: 12px;
+}
+
+.inset {
+    @include sunken;
+    border: none;
+    margin: 0;
+    background: #fff;
+    padding: 2px;
+}
+
+.center-container {
+    width: 800px;
+    height: 600px;
+    max-height: 100%;
+    margin: auto;
+}
+
+.window-body {
+    margin: 1px;
+}
+
+// vertical rule
+vr {
+    border-left: 1px solid $control-dark;
+    border-right: 1px solid $control-light-light;
+    margin: 2px 3px;
+}
+
+
+
+pre {
+    @include sunken;
+    background: $window;
+    padding: 4px;
+}
+
+code {
+    @include code-font;
+}
+
+/* Because Jekyll makes this automatically a figure, we have to override browser styles */
+figure.highlight {
+    margin-inline-start: .5rem;
+    margin-inline-end: .5rem;
+}
+
+.statusbar {
+    padding: 1px;
+    display: flex;
+}
+
+.statusbar-box {
+    @include sunken-outer;
+    padding: 4px;
+    width: 100%;
+}
+
+.toc-cell {
+    @include ui-font;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}

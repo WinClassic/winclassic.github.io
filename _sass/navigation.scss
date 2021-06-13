@@ -1,0 +1,39 @@
+
+.navigation-icons {
+    display: flex;
+    padding: 2px;
+}
+
+.navigation-icons a, .navigation-icons a:link {
+    color: $control-text;
+    text-decoration: none;
+}
+
+.navigation-icon {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 50px;
+    min-height: 36px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.navigation-icon:hover {
+    @include raised-inner;
+}
+
+.navigation-icon:active {
+    @include sunken-outer;
+}
+
+.navigation-icon img {
+    image-rendering: crisp-edges;
+    width: 16px;
+    height: 16px;
+    margin: 0 auto 4px auto;
+}
+
+.navigation-icon:not(:hover) img {
+    filter: grayscale(1);
+}
