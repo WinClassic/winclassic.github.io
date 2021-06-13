@@ -1,0 +1,12 @@
+<div class="navigation-icons">
+{% for item in site.data.nav %}
+    {% if item.newGroup %}
+    <vr></vr>
+    {%endif%}
+
+    <a class="navigation-icon" href="{{item.link}}">
+        <img src="{{item.img}}">
+        <span>{{item.name}}</span>
+    </a>
+{% endfor %}
+</div>

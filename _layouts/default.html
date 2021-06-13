@@ -17,24 +17,7 @@
                 <div class="title-bar-text">{{page.title | default: "Untitled"}}</div>
             </div>
             <div class="window-body">
-                <div class="navigation-icons">
-                    <a class="navigation-icon" href="/">
-                        <img src="/assets/img/home_16.png">
-                        <span>Home</span>
-                    </a>
-                    <a class="navigation-icon" href="/quickstart">
-                        <img src="/assets/img/help_16.png">
-                        <span>Quick Start</span>
-                    </a>
-                    <a class="navigation-icon" href="https://github.com/WinClassic/winclassic.github.io/issues/new">
-                        <img src="/assets/img/warning_16.png">
-                        <span>GitHub Issues</span>
-                    </a>
-                    <a class="navigation-icon" href="https://winclassic.boards.net/">
-                        <img src="/assets/img/winclassic_16.png">
-                        <span>WinClassic Forums</span>
-                    </a>
-                </div>
+                {% include nav.html %}
                 <div>
                     {{content}}
                 </div>

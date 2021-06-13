@@ -1,0 +1,21 @@
+- name: "Home"
+  img: "/assets/img/home_16.png"
+  link: "/"
+
+- name: "Quick Start"
+  img: "/assets/img/help_16.png"
+  link: "/quickstart"
+  newGroup: true
+
+- name: "App Theming"
+  img: "/assets/img/app_16.png"
+  link: "/app-theming"
+
+- name: "GitHub Issues"
+  img: "/assets/img/warning_16.png"
+  link: "https://github.com/WinClassic/winclassic.github.io/issues/new"
+  newGroup: true
+
+- name: "WinClassic Forums"
+  img: "/assets/img/winclassic_16.png"
+  link: "https://winclassic.boards.net/"
