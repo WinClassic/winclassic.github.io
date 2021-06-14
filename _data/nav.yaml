@@ -11,11 +11,11 @@
   img: "/assets/img/app_16.png"
   link: "/app-theming"
 
-- name: "GitHub Issues"
-  img: "/assets/img/warning_16.png"
-  link: "https://github.com/WinClassic/winclassic.github.io/issues/new"
-  newGroup: true
-
 - name: "WinClassic Forums"
   img: "/assets/img/winclassic_16.png"
   link: "https://winclassic.boards.net/"
+  newGroup: true
+
+- name: "About"
+  img: "/assets/img/question_16.png"
+  link: "/about"
