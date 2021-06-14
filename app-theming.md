@@ -1,6 +1,8 @@
 ---
 layout: document
 title: "Application Theming"
+toc:
+- name: "Ripcord"
 ---
 
 # Application Theming

@@ -1,6 +1,28 @@
 ---
 layout: document
 title: "Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10"
+toc:
+- name: "Methods to Enabling Classic Theme"
+  link: "#methods"
+- name: "Tweaks and Additional Software"
+  link: "#tweaks"
+  subitems:
+  - name: "Start Menus"
+    link: "#startmenus"
+
+  - name: "Taskbars"
+    link: "#taskbars"
+
+  - name: "3D Borders"
+    link: "#borders"
+
+  - name: "Remove Address Bar"
+    link: "#remove-address-bar"
+
+  - name: "Alternative Address Bar"
+    link: "#alt-address-bar"
+- name: "Issues and Workarounds"
+  link: "#issues"
 ---
 
 # Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10
