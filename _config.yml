@@ -5,6 +5,8 @@ baseurl: ""
 url: "https://winclassic.github.io"
 plugins: []
 
+page_excerpts: true
+
 sass:
   style: compressed
 
