@@ -6,6 +6,7 @@ url: "https://winclassic.github.io"
 plugins: []
 
 page_excerpts: true
+excerpt_separator: <!--more-->
 
 sass:
   style: compressed
