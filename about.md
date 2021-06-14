@@ -33,6 +33,7 @@ toc:
 You can emphasize content intended to warn or inform readers by enclosing it in a balloon.
 
 ```html
+{% raw %}
 <!-- Small version -->
 {% include balloon.html title="Imporant title" description="Small descrption." icon="bulb_16.png" %}
 
@@ -41,6 +42,7 @@ You can emphasize content intended to warn or inform readers by enclosing it in 
 Here I can write lots of text without being squished in <b>one</b> line!
 {% endcapture %}
 {% include balloon.html title="Imporant title" description=my_balloon_content %}
+{% endraw %}
 ```
 
 {% include balloon.html title="Redundant icon names" description="You can omit the icon parameter from the include block if you just want it to be a warning icon. Otherwise you can specify a filename from the /assets/img/ directory." icon="bulb_16.png" %}
