@@ -16,7 +16,7 @@ WinClassic is a small community of people that aims to keep Classic theme alive 
 
 I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rules>
 
-## Methods to Enabling Classic Theme
+## Methods to Enabling Classic Theme {#methods}
 
 1. **Simple Classic Theme**
 
@@ -66,9 +66,9 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     
     Link: <https://winclassic.boards.net/thread/121/classic-theme-dwm-disabler>
 
-## Tweaks and Additional Software
+## Tweaks and Additional Software {#tweaks}
 
-### Start Menus
+### Start Menus {#startmenus}
 
 1. **Open-Shell**
 
@@ -85,7 +85,7 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Products from StarDock that allow you to apply skins to your start menu, taskbar, desktop and even program windows themselves. Has a rich selection of skin to download and try, but it's also a little resource hungry.
     Link: <https://www.stardock.com/products/>
     
-### Taskbars
+### Taskbars {#taskbars}
 
 1. **Simple Classic Theme Taskbar**
 
@@ -108,31 +108,37 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     Highly detailed and authentic replica skin of the Windows 7 classic taskbar, by Spitfire_x86. Skin for the program “StartisBack”, which is commercial.
 
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
-    
-    ### 3D Borders:
 
-    To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
-    **Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation.**
-    Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
-    
-    ### Remove Address Bar:
+### 3D Borders {#borders}
 
-    If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install Autohotkey and then apply the script by double-clicking it to get rid of the address bar.
-    Autohotkey: <https://www.autohotkey.com/>
-    Script: <https://winclassic.boards.net/thread/756/resource-library>  
-    
-    ### Alternative Address Bar:
+To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
 
-    In recent Windows 10 builds the address bar has had some changes made to it that don't really gel with Classic theme. An alternative address bar called "Quero" can be found at the link below. Sadly, it was designed for Internet Explorer in mind, so there are a few annoyances with it - see the "Issues and Workarounds" sections for possible solutions.
-    Link: <http://www.quero.at/>
-    Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
+**Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation.**
 
+Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
 
-## Issues and Workarounds:
+### Remove Address Bar {#remove-address-bar}
+
+If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install Autohotkey and then apply the script by double-clicking it to get rid of the address bar.
+
+Autohotkey: <https://www.autohotkey.com/>
+
+Script: <https://winclassic.boards.net/thread/756/resource-library>  
+
+### Alternative Address Bar {#alt-address-bar}
+
+In recent Windows 10 builds the address bar has had some changes made to it that don't really gel with Classic theme. An alternative address bar called "Quero" can be found at the link below. Sadly, it was designed for Internet Explorer in mind, so there are a few annoyances with it - see the "Issues and Workarounds" sections for possible solutions.
+
+Link: <http://www.quero.at/>
+
+Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
+
 {% capture quero-disclaimer %}
 Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1.
 {% endcapture %}
 {% include balloon.html title="About Quero installation" description=quero-disclaimer icon="bulb_16.png" %}
+
+## Issues and Workarounds: {#issues}
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
 
@@ -161,7 +167,7 @@ Quero installs and works on most setups, but a few people have noticed that it w
 5. **The Windows taskbar is missing text and is all glitched out on Windows 10 sometimes. Why?**
 
     That’s what’s left of the old, original taskbar; the usual one W10 uses places itself over the old one. Microsoft have broken the taskbar when it’s run in classic theme and that’s what you’re seeing when Windows bugs out. Simply put, it’s best to just use an alternative taskbar altogether. See the “Taskbar” portion of the “Tweaks & Additional Software” section of this guide for more information.
-    
-6. **I installed the Quero address bar, but now I can't use keyboard shortcuts. What's the deal with that? **    
+
+6. **I installed the Quero address bar, but now I can't use keyboard shortcuts. What's the deal with that?**    
 
     Quero was designed with Internet Explorer in mind; it working on Windows Explorer is just a side effect of Microsoft's shaddy practices during the Windows 95 days. Point in case, you need to either use an Autohotkey script to workaround this or remove a file from Quero's program folder which causes this to happen. More information can be found here, in this thread: <https://winclassic.boards.net/thread/771/solution-keyboard-shortcuts-quero-on>
