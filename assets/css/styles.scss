@@ -79,4 +79,31 @@ figure.highlight {
     width: 150px;
     display: flex;
     flex-direction: column;
+.home-shortcut {
+    @include button;
+    @include ui-font;
+
+    color: $control-text;
+    text-decoration: none;
+    display: block;
+
+    min-height: 48px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    
+    span {
+        display: block;
+
+        &:first-of-type {
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+    }
+
+    img {
+        margin-right: 8px;
+        width: 32px;
+        height: 32px;
+    }
 }

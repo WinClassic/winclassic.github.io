@@ -5,7 +5,13 @@ title: "Home"
 
 # Welcome to winclassic.github.io!
 
-Check out the [quick start guide](/quickstart) written by [Clasurol/Jackal](https://winclassic.boards.net/user/258).
+## Guides
+
+<a class="home-shortcut" href="/quickstart">
+    <img src="/assets/img/help_32.png" style="float:left;" />
+    <span>Quick Start</span>
+    <span>Helps you get classic theme installed. Written by Clasurol/Jackal.</span>
+</a>
 
 <!--more-->
 
