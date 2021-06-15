@@ -1,9 +1,9 @@
 ---
 layout: document
-title: "Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10"
+title: "Quick Start Guide to using Classic Theme on Windows 8/8.1, 10 and 11"
 ---
 
-# Quick Start Guide to using Classic Theme on Windows 8/8.1 and 10
+# Quick Start Guide to using Classic Theme on Windows 8/8.1, 10 and 11
 
 This is a quick guide to enable and use Classic theme on your Windows 8/8.1/10 installation. If you have issues or need help, please see the section below or if it’s unique, post it in the “Classic Theme Issues” section of the boards.
 
@@ -138,6 +138,36 @@ Quero installs and works on most setups, but a few people have noticed that it w
 {% endcapture %}
 {% include balloon.html title="About Quero installation" description=quero-disclaimer icon="bulb_16.png" %}
 
+### Restore Classic Sound Events
+
+Windows killed off the logon/logoff and Startup sounds starting from Windows 7. To restore these without resorting to registry tweaks or using other dubious methods, you can use "ClassicSounds", a simple program that adds itself as a service and enables the sounds to play properly.
+
+Link: <https://winclassic.boards.net/thread/329/w10-restore-logon-shutdown-sounds>
+
+### Customize Desktop Icon Font Color/Restore Desktop Color Backgrounds
+
+Windows 9x/early NT allowed you to have color backgrounds to the text of desktop icons. This feature was removed in Vista, but can restored using third party applications. You need to disable drop shadows first for these to work though.
+
+Link: <https://winclassic.boards.net/thread/243/customizing-desktop-font-color-windows>
+
+### Classic Display Properties Dialog
+
+Adjusting Classic theme from within Windows 8/8.1/10/11 is no longer possible by default because Microsoft removed support for it in the Personalization panel/Settings. You can restore the ability to customize Classic Theme by using an old dialog from Windows 95 which still works under modern Windows. 
+
+Link: <https://winclassic.boards.net/thread/906/display-properties-deskn>
+
+{% capture displayprop-disclaimer %}
+If you a user of SimpleClasicTheme, this will be installed for you already.
+{% endcapture %}
+{% include balloon.html title="Display Properties Additional Information" description=displayprop-disclaimer icon="bulb_16.png" %}
+
+### Winaero Tweaker
+
+An essential tool tha allows for making more advanced changes to your Windows installation. Don't like the system font? Want to change the window title bar size? How about disabling adverts? Lot's of small tweaks all from the safety of an easy to use GUI.
+
+Link: <https://winaero.com/winaero-tweaker/>
+
+
 ## Issues and Workarounds: {#issues}
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
@@ -171,3 +201,7 @@ Quero installs and works on most setups, but a few people have noticed that it w
 6. **I installed the Quero address bar, but now I can't use keyboard shortcuts. What's the deal with that?**    
 
     Quero was designed with Internet Explorer in mind; it working on Windows Explorer is just a side effect of Microsoft's shaddy practices during the Windows 95 days. Point in case, you need to either use an Autohotkey script to workaround this or remove a file from Quero's program folder which causes this to happen. More information can be found here, in this thread: <https://winclassic.boards.net/thread/771/solution-keyboard-shortcuts-quero-on>
+    
+6. **Ok, Classic theme is installed and appears to be working! But - it's all white! How do I change I customize it?**    
+
+    You need an old dialog from Windows 95 that has been modified to work with modern Windows setups. Look in the "Tweaks & Additional Software" portion of this Quick Guide. Note: if you use SimpleClassicTheme or 6sicsix’s Classic Theme Script, this is already installed for you.   
