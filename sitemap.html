@@ -1,0 +1,20 @@
+---
+layout: document
+title: "Sitemap"
+excerpt: "" # don't remove or jekyll will shit itself
+hidden: true
+---
+
+<h1>Sitemap</h1>
+
+<ul class="icon-list">
+    {% for page in site.pages %}
+    {% unless page.hidden %}
+    <li>
+        <a href="{{ page.url }}">
+            <img src="/assets/img/txt_16.png" width=16 height=16 alt=""> {{ page.title }}
+        </a>
+    </li>
+    {% endunless %}
+    {% endfor %}
+</ul>
