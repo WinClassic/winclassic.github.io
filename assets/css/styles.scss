@@ -80,6 +80,48 @@ figure.highlight {
     width: 150px;
     display: flex;
     flex-direction: column;
+}
+
+// TODO: use button mixin
+@mixin link-icon-button($icon, $text) {
+    
+    @include raised-button;
+    @include ui-font;
+    background-color: $control;
+    background-image: url($icon);
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+
+    box-sizing: border-box;
+    border: none;
+
+    display: inline-block;
+    line-height: 23px;
+
+    border-radius: 0;
+    min-width: 75px;
+    min-height: 23px;
+    
+    padding-left: 26px;
+    padding-right: 12px;
+
+    color: $control-text;
+    text-decoration: none;
+
+    // &:before { content: $text; }
+
+    &:active {
+        @include sunken;
+    }
+}
+
+.download-button {
+    @include link-icon-button("/assets/img/disk_download_16.png", "Download");
+}
+
+.thread-button {
+    @include link-icon-button("/assets/img/balloon_16.png", "Thread");
+}
 
 .icon-list {
     list-style-type:none;
