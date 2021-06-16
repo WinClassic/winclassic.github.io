@@ -82,6 +82,19 @@ figure.highlight {
     flex-direction: column;
 }
 
+.icon-grid {
+    @include sunken;
+    background-color: $window;
+    width: auto;
+    padding: 6px;
+}
+
+.icon-grid img {
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+}
+
 // TODO: use button mixin
 @mixin link-icon-button($icon, $text) {
     
