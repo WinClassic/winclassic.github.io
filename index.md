@@ -8,7 +8,7 @@ title: "Home"
 ## Guides
 
 <a class="home-shortcut" href="/quickstart">
-    <img src="/assets/img/help_32.png" style="float:left;" />
+    <img src="/assets/img/help_32.png" style="float:left;" alt="" />
     <span>Quick Start</span>
     <span>Helps you get classic theme installed. Written by Clasurol/Jackal.</span>
 </a>
