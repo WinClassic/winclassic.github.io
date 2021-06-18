@@ -14,7 +14,9 @@
     min-height: 22px;
 }
 
+
 .start-button {
+    @include button;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -24,6 +26,19 @@
     padding-bottom: 4px;
     min-width: 0;
     margin-right: 5px;
+
+    -ms-user-select:none;
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    user-select:none;
+    cursor: pointer;
+
+}
+
+details[open] .start-button {
+    @include sunken;
 }
 
 .start-button img {
@@ -44,4 +59,34 @@
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
+}
+.start-menu {
+    @include raised;
+    background-color: $control;
+    bottom: 26px;
+    left: 3px;
+    position: absolute;
+    padding: 3px;
+}
+
+.start-menu .icon-list li {
+
+    margin: 0;
+    padding: 2px;
+
+    a {
+        color: $control-text;
+        cursor: default;
+        display: inline-block;
+        width: 100%;
+    }
+
+    &:hover {
+        background: $selected;
+        color: $selected-text;
+
+        a {
+            color: $selected-text;
+        }
+    }
 }

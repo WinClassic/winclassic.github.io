@@ -16,7 +16,12 @@
 
 <body>
     <div class="taskbar">
-        <button class="start-button"><img src="/assets/img/startIcon95.png" width=16 height=16> Start</button>
+        <details>
+            <summary class="start-button">
+                <img src="/assets/img/startIcon95.png" width=16 height=16 alt=""> Start
+            </summary>
+            {% include startmenu.html %}
+        </details>
         <div class="taskband-button">{{page.title | default: "Untitled"}}</div>
     </div>
     <div class="center-container">

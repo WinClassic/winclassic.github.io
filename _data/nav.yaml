@@ -16,10 +16,6 @@
   link: "https://winclassic.boards.net/"
   newGroup: true
 
-- name: "Sitemap"
-  img: "/assets/img/folder_16.png"
-  link: "/sitemap"
-
 - name: "About"
   img: "/assets/img/question_16.png"
   link: "/about"
