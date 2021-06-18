@@ -16,6 +16,39 @@ WinClassic is a small community of people that aims to keep Classic theme alive 
 
 I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rules>
 
+## Compatibility at a glance
+
+<table class="compat-table">
+    <tr>
+        <th>Feature</th>
+        <th>Windows XP</th>
+        <th>Windows 7</th>
+        <th>Windows 8</th>
+        <th>Windows 8.1</th>
+        <th>Windows 10</th>
+        <th>Windows 11</th>
+    </tr>
+    <tr>
+        <th>Classic Theme</th>
+        <td colspan=2><img src="/assets/img/check_circle_16.png" width=16 height=16> Works out of box</td>
+        <td><img src="/assets/img/deny_circle_16.png" width=16 height=16> Broken</td>
+        <td colspan=3><img src="/assets/img/warning_circle_16.png" width=16 height=16> <a href="methods">Extra software required</a></td>
+    </tr>
+    <tr>
+        <th>Taskbar</th>
+        <td colspan=2><img src="/assets/img/check_circle_16.png" width=16 height=16> Works out of box</td>
+        <td><img src="/assets/img/deny_circle_16.png" width=16 height=16> Broken</td>
+        <td colspan=2><img src="/assets/img/warning_circle_16.png" width=16 height=16> <a href="#taskbars">Extra or replacement software required</a></td>
+        <td><img src="/assets/img/warning_circle_16.png" width=16 height=16> <a href="#taskbars">Replacement required</a></td>
+    </tr>
+    <tr>
+        <th>Ribbons</th>
+        <td colspan><img src="/assets/img/na_circle_16.png" width=16 height=16> N/A</td>
+        <td colspan><img src="/assets/img/check_circle_16.png" width=16 height=16> Out of box</td>
+        <td colspan=4><img src="/assets/img/warning_circle_16.png" width=16 height=16> <a href="/assets/img/blank-ribbon.png">Displays blank space</a></td>
+    </tr>
+</table>
+
 ## Methods to Enabling Classic Theme {#methods}
 
 1. **Simple Classic Theme**

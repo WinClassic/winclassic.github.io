@@ -25,6 +25,7 @@
     }
 
     table {
+        font-size: 10pt;
         border-collapse: collapse;
 
         ul {
@@ -56,4 +57,13 @@
     padding-block-start: 8px;
     height: 500px;
     max-height: calc(100vh - 76px);
+}
+
+.compat-table {
+    width: 100%;
+    text-align: center;
+
+    img, td {
+        vertical-align: middle;
+    }
 }
