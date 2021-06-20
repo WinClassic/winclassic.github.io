@@ -23,3 +23,24 @@ To achieve this, follow these steps:
 
     ![A picture of Ripcord running with classic Windows borders](/assets/img/classic_ripcord.png)
 
+## Windows Explorer
+
+The Windows Explorer has changed over the years, changing layout and gaining features, making it harder to change back, there are some ways around it though, explained here:
+
+### Removing the navigation bar
+
+*Original thread ["Removing the Navigation Bar from Windows Explorer"](https://winclassic.boards.net/thread/132/removing-navigation-bar-windows-explorer) by [anixx](https://winclassic.boards.net/user/3).*
+
+Since Windows Vista, Microsoft does not provide convenient means to remove or hide the Nazigation Bar. The Navigation Bar is the bar that includes the navigation buttons (forward, back), the address bar and the search bar.
+
+#### With Classic Theme
+
+Download the AutoHotkey script below: {% include download-button.html link="/assets/files/NoAddressBar.ahk" %}
+
+#### Without Classic Theme
+
+Open the `.msstyles` file for the theme you are using with Windows Style Builder. 
+
+Now set `Toolbars, Headers and Rebar > Rebar > NavBar > Basic > Base > Band` to `CONTENTMARGINS:MARGIN (0, 0, 0, -33)`.
+
+Save it and apply.
