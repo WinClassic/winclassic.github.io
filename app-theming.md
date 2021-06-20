@@ -17,7 +17,7 @@ To achieve this, follow these steps:
    
 2. In the "Advanced" tab, click on <span class="example-button">Enviro<u>n</u>ment Variables...</span>.
 
-3. Add the environment variable by clicking on <span class="example-button"><u>N</u>ew...</span> inside one of the group boxes (preferrably the one for *user* variables). Then type <span class="example-textbox">RIPCORD_STYLE_ENGINE</span> as "Variable name" and <span class="example-textbox">windows</span> as "Variable value", then click on <span class="example-button">OK</span>.
+3. Add the environment variable by clicking on <span class="example-button"><u>N</u>ew...</span> inside one of the group boxes (preferably the one for *user* variables). Then type <span class="example-textbox">RIPCORD_STYLE_ENGINE</span> as "Variable name" and <span class="example-textbox">windows</span> as "Variable value", then click on <span class="example-button">OK</span>.
 
 4. Restart Ripcord and done!
 
@@ -31,7 +31,7 @@ The Windows Explorer has changed over the years, changing layout and gaining fea
 
 *Original thread ["Removing the Navigation Bar from Windows Explorer"](https://winclassic.boards.net/thread/132/removing-navigation-bar-windows-explorer) by [anixx](https://winclassic.boards.net/user/3).*
 
-Since Windows Vista, Microsoft does not provide convenient means to remove or hide the Nazigation Bar. The Navigation Bar is the bar that includes the navigation buttons (forward, back), the address bar and the search bar.
+Since Windows Vista, Microsoft does not provide convenient means to remove or hide the Navigation Bar. The Navigation Bar is the bar that includes the navigation buttons (forward, back), the address bar and the search bar.
 
 #### With Classic Theme
 
@@ -43,6 +43,7 @@ Open the `.msstyles` file for the theme you are using with Windows Style Builder
 
 Now set `Toolbars, Headers and Rebar > Rebar > NavBar > Basic > Base > Band` to `CONTENTMARGINS:MARGIN (0, 0, 0, -33)`.
 
+Save it and apply.
 
 ## Windows Explorer (Shell)
 
