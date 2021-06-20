@@ -1,14 +1,14 @@
 <nav class="start-menu">
     <ul class="icon-list">
-        {% assign pages = site.pages | where: "title" | sort: "title" %}
+        {% assign pages = site.pages | sort: "title" %}
         {% for page in pages %}
-        {% unless page.hidden %}
+        {% if page.title %}{% unless page.hidden %}
         <li>
             <a href="{{ page.url }}">
                 <img src="/assets/ico/txt_16.png" width=16 height=16 alt=""> {{ page.title }}
             </a>
         </li>
-        {% endunless %}
+        {% endunless %}{% endif %}
         {% endfor %}
     </ul>
 </nav>
