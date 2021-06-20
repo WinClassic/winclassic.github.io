@@ -129,11 +129,11 @@ figure.highlight {
 }
 
 .download-button {
-    @include link-icon-button("/assets/img/disk_download_16.png", "Download");
+    @include link-icon-button("/assets/ico/disk_download_16.png", "Download");
 }
 
 .thread-button {
-    @include link-icon-button("/assets/img/balloon_16.png", "Thread");
+    @include link-icon-button("/assets/ico/balloon_16.png", "Thread");
 }
 
 .icon-list {

@@ -1,21 +1,21 @@
 - name: "Home"
-  img: "/assets/img/home_16.png"
+  img: "/assets/ico/home_16.png"
   link: "/"
 
 - name: "Quick Start"
-  img: "/assets/img/help_16.png"
+  img: "/assets/ico/help_16.png"
   link: "/quickstart"
   newGroup: true
 
 - name: "App Theming"
-  img: "/assets/img/app_16.png"
+  img: "/assets/ico/exe_16.png"
   link: "/app-theming"
 
 - name: "WinClassic Forums"
-  img: "/assets/img/winclassic_16.png"
+  img: "/assets/ico/winclassic_16.png"
   link: "https://winclassic.boards.net/"
   newGroup: true
 
 - name: "About"
-  img: "/assets/img/question_16.png"
+  img: "/assets/ico/question_16.png"
   link: "/about"

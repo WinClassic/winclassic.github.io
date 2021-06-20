@@ -30,22 +30,22 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
     </tr>
     <tr>
         <th>Classic Theme</th>
-        <td colspan=2><img src="/assets/img/check_circle_16.png"> Works out of box</td>
-        <td><img src="/assets/img/deny_circle_16.png"> Broken</td>
-        <td colspan=3><img src="/assets/img/warning_circle_16.png"> <a href="methods">Extra software required</a></td>
+        <td colspan=2><img src="/assets/ico/check_circle_16.png"> Works out of box</td>
+        <td><img src="/assets/ico/deny_circle_16.png"> Broken</td>
+        <td colspan=3><img src="/assets/ico/warning_circle_16.png"> <a href="methods">Extra software required</a></td>
     </tr>
     <tr>
         <th>Taskbar</th>
-        <td colspan=2><img src="/assets/img/check_circle_16.png"> Works out of box</td>
-        <td><img src="/assets/img/deny_circle_16.png"> Broken</td>
-        <td colspan=2><img src="/assets/img/warning_circle_16.png"> <a href="#taskbars">Extra or replacement software required</a></td>
-        <td><img src="/assets/img/warning_circle_16.png"> <a href="#taskbars">Replacement required</a></td>
+        <td colspan=2><img src="/assets/ico/check_circle_16.png"> Works out of box</td>
+        <td><img src="/assets/ico/deny_circle_16.png"> Broken</td>
+        <td colspan=2><img src="/assets/ico/warning_circle_16.png"> <a href="#taskbars">Extra or replacement software required</a></td>
+        <td><img src="/assets/ico/warning_circle_16.png"> <a href="#taskbars">Replacement required</a></td>
     </tr>
     <tr>
         <th>Ribbons</th>
-        <td colspan><img src="/assets/img/na_circle_16.png"> N/A</td>
-        <td colspan><img src="/assets/img/check_circle_16.png"> Out of box</td>
-        <td colspan=4><img src="/assets/img/warning_circle_16.png"> <a href="/assets/img/blank-ribbon.png">Displays blank space</a></td>
+        <td colspan><img src="/assets/ico/na_circle_16.png"> N/A</td>
+        <td colspan><img src="/assets/ico/check_circle_16.png"> Out of box</td>
+        <td colspan=4><img src="/assets/ico/warning_circle_16.png"> <a href="/assets/img/blank-ribbon.png">Displays blank space</a></td>
     </tr>
 </table>
 
