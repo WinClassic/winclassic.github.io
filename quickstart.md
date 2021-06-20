@@ -106,16 +106,19 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 1. **Open-Shell**
 
     Formally called Classic Shell, Open Shell is a free start menu replacer with skin support and massive customization potential. If you want to replicate the Windows 95 start menu or even the Windows 7 start menu, you can. It even has it's own toolbar for Windows Explorer, and (limited) taskbar customization options. Supported by most classic taskbar programs, included SimpleClassicTheme Taskbar, RetroBar and  ReactOS taskbar.
+
     Link: <https://github.com/Open-Shell/Open-Shell-Menu>
     
-2. **StartisBack**
+2. **StartIsBack**
 
-    Commercial alternative to Open-Shell. While Open/Classic-Shell aims to replicate older Windows Start menu styles as skins, StartisBack actually brings back the original Windows 7 start menu via reverse engineering. It also allows for far greater taskbar customization with complex skins available (see the "Taskbars" portion of this section for one).
+    Commercial alternative to Open-Shell. While Open/Classic-Shell aims to replicate older Windows Start menu styles as skins, StartIsBack actually brings back the original Windows 7 start menu via reverse engineering. It also allows for far greater taskbar customization with complex skins available (see the "Taskbars" portion of this section for one).
+
     Link: <https://www.startisback.com/#download-tab>
     
 2. **StarDock Start8/10/WindowBlinds**
 
     Products from StarDock that allow you to apply skins to your start menu, taskbar, desktop and even program windows themselves. Has a rich selection of skin to download and try, but it's also a little resource hungry.
+
     Link: <https://www.stardock.com/products/>
     
 ### Taskbars {#taskbars}
@@ -132,13 +135,13 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
 3. **ReactOS Taskbar**
 
-    “Port” of the (older) ReactOS Explorer’s taskbar to Windows by Spitfire_x86. Has it’s fair share of issues, and is obsolete nowadays.
+    “Port” of the (older) ReactOS Explorer’s taskbar to Windows by Spitfire_x86. **Has it’s fair share of issues, and is obsolete nowadays.**
     
     Link: <https://winclassic.boards.net/thread/177/reactos-taskbar-win10-desktop-classic>
 
-4. **Classic Taskbar Skin for StartisBack**
-    
-    Highly detailed and authentic replica skin of the Windows 7 classic taskbar, by Spitfire_x86. Skin for the program “StartisBack”, which is commercial.
+4. **Classic Taskbar Skin for StartIsBack**
+
+    Highly detailed and authentic replica skin of the Windows 7 classic taskbar, by Spitfire_x86. Skin for the program [“StartIsBack”](https://startisback.com/), which is commercial.
 
     Link: <https://winclassic.boards.net/thread/280/classic-taskbar-superbar-startisback>
 
@@ -146,15 +149,20 @@ I also ask you read the site rules: <https://winclassic.boards.net/thread/2/rule
 
 To apply 3D borders to context menus and  the toolbar, you can do so with the third party application "UPMCalc". Uncheck point 17, hit apply and logout. When you log back in, it should take affect. 
 
-**Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation.**
+{%
+    include balloon.html
+    icon="bulb_16.png"
+    title="Hint"
+    description="Turning ON/OFF 3D borders is included as an option for SimpleClassicTheme users on installation."
+%}
 
 Link: <https://winclassic.boards.net/thread/120/classic-theme-adjusting-upmcalc-border?page=1&scrollTo=318>
 
 ### Remove Address Bar {#remove-address-bar}
 
-If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install Autohotkey and then apply the script by double-clicking it to get rid of the address bar.
+If for some reason you want to remove the Address Bar from Explorer you can do so by using this AutoHotkey script. Install AutoHotkey and then apply the script by double-clicking it to get rid of the address bar.
 
-Autohotkey: <https://www.autohotkey.com/>
+AutoHotkey: <https://www.autohotkey.com/>
 
 Script: <https://winclassic.boards.net/thread/756/resource-library>  
 
@@ -166,10 +174,11 @@ Link: <http://www.quero.at/>
 
 Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
 
-{% capture quero-disclaimer %}
-Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1.
-{% endcapture %}
-{% include balloon.html title="About Quero installation" description=quero-disclaimer icon="bulb_16.png" %}
+{%
+    include balloon.html
+    title="About Quero installation"
+    description="Quero installs and works on most setups, but a few people have noticed that it wasn't working for them, namely with Windows 8.1."
+%}
 
 ### Restore Classic Sound Events
 
@@ -189,14 +198,16 @@ Adjusting Classic theme from within Windows 8/8.1/10/11 is no longer possible by
 
 Link: <https://winclassic.boards.net/thread/906/display-properties-deskn>
 
-{% capture displayprop-disclaimer %}
-If you a user of SimpleClasicTheme, this will be installed for you already.
-{% endcapture %}
-{% include balloon.html title="Display Properties Additional Information" description=displayprop-disclaimer icon="bulb_16.png" %}
+{%
+    include balloon.html
+    title="Display Properties Additional Information"
+    description="If you a user of SimpleClassicTheme, this will be installed for you already."
+    icon="bulb_16.png"
+%}
 
-### Winaero Tweaker
+### WinAero Tweaker
 
-An essential tool tha allows for making more advanced changes to your Windows installation. Don't like the system font? Want to change the window title bar size? How about disabling adverts? Lot's of small tweaks all from the safety of an easy to use GUI.
+An essential tool that allows for making more advanced changes to your Windows installation. Don't like the system font? Want to change the window title bar size? How about disabling adverts? Lot's of small tweaks all from the safety of an easy to use GUI.
 
 Link: <https://winaero.com/winaero-tweaker/>
 
@@ -205,9 +216,13 @@ Link: <https://winaero.com/winaero-tweaker/>
 
 1. **The right click menu is showing up blank with no text and really small! What do I do to fix it?**
 
-    - If you are on Windows 10 build 1607 and below, you can enable the old context menus from the registry. Read this thread for more information: <https://winclassic.boards.net/thread/26/windows-10-context-menus>
+    - If you are on **Windows 10 build 1607 and below**, you can enable the old context menus from the registry.
     
-    - Starting with W10 build 1809 (and above), Microsoft removed the registry tweak. A workaround in the form of an experimental patch can be found here, but please note, it’s in the pre-alpha stages and is not perfect (this patch is included with SimpleClassictheme and is not needed if you use that method of running Classic theme): <https://github.com/rikka0w0/ExplorerContextMenuTweaker/releases>
+        Read this thread for more information: <https://winclassic.boards.net/thread/26/windows-10-context-menus>
+    
+    - Starting with **Windows 10 build 1809 (and above)**, Microsoft removed the registry tweak. A workaround in the form of an experimental patch can be found here, but please note, it’s in the pre-alpha stages and is not perfect (this patch is included with SimpleClassicTheme and is not needed if you use that method of running Classic theme)
+
+        Link: <https://github.com/rikka0w0/ExplorerContextMenuTweaker/releases>
 
 2. **The task manager isn’t showing! How do I get to show?**
 
@@ -219,7 +234,9 @@ Link: <https://winaero.com/winaero-tweaker/>
 
 3. **I can’t change my startup programs anymore!**
 
-    The modern Task manager included the feature to customize what Start up programs you have running, and yes, as stated above, that is not working under Classic theme. Workaround is use the old MS Config tool, which is also included with the W7 Task manager by Winaero: <https://winaero.com/get-classic-old-task-manager-in-windows-10/>
+    The modern Task manager included the feature to customize what Start up programs you have running, and yes, as stated above, that is not working under Classic theme. Workaround is use the old MS Config tool, which is also included with the Windows 7 Task Manager by WinAero.
+    
+    Windows 7 Task Manager: <https://winaero.com/get-classic-old-task-manager-in-windows-10/>
 
 4. **Some Control Panel links show up as “The page failed to load”. Any fix?**
 
@@ -234,7 +251,7 @@ Link: <https://winaero.com/winaero-tweaker/>
 6. **I installed the Quero address bar, but now I can't use keyboard shortcuts. What's the deal with that?**    
 
     Quero was designed with Internet Explorer in mind; it working on Windows Explorer is just a side effect of Microsoft's shaddy practices during the Windows 95 days. Point in case, you need to either use an Autohotkey script to workaround this or remove a file from Quero's program folder which causes this to happen. More information can be found here, in this thread: <https://winclassic.boards.net/thread/771/solution-keyboard-shortcuts-quero-on>
-    
-6. **Ok, Classic theme is installed and appears to be working! But - it's all white! How do I change I customize it?**    
 
-    You need an old dialog from Windows 95 that has been modified to work with modern Windows setups. Look in the "Tweaks & Additional Software" portion of this Quick Guide. Note: if you use SimpleClassicTheme or 6sicsix’s Classic Theme Script, this is already installed for you.   
+7. **Ok, Classic theme is installed and appears to be working! But - it's all white! How do I change I customize it?**    
+
+    You need an old dialog from Windows 95 that has been modified to work with modern Windows setups. Look in the ["Tweaks & Additional Software"](#tweaks) portion of this Quick Guide. Note: if you use SimpleClassicTheme or 6sicsix’s Classic Theme Script, this is already installed for you.   
