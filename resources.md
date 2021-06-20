@@ -61,7 +61,7 @@ icon: "/assets/ico/dll_16.png"
 ### Windows Chicago Wallpapers
 {% include download-button.html link="https://winclassic.boards.net/attachment/download/853" %}
 
-![preview](https://www.zupimages.net/up/20/51/vloe.png)
+![Preview of wallpapers](/assets/img/windows-chicago-wallpaper-preview.png)
 
 ## Welcome Screens
 
@@ -69,20 +69,20 @@ icon: "/assets/ico/dll_16.png"
 
 {% include download-button.html link="https://mega.nz/file/XstETIAb#TIe8pO-kS8O-4BidGZPD4sedX8qp_LNsyJFoipW11Eo" %}
 
-![](https://cdn.discordapp.com/attachments/749367116591005856/779520752923312138/image.png)
+![Preview of Windows 95 welcome screen](https://cdn.discordapp.com/attachments/749367116591005856/779520752923312138/image.png)
 
 ### Windows NT
 
 {% include download-button.html link="https://mega.nz/file/vtsU3AyK#m1Enc8i2xiYYnO597jB7msBjj9mB8Sn6g81ZMC6fNYk" %}
 
-![](https://cdn.discordapp.com/attachments/749367116591005856/779520972926615582/image.png)
+![Preview of Windows NT welcome screen](https://cdn.discordapp.com/attachments/749367116591005856/779520972926615582/image.png)
 
 ### Windows 2000
 
 {% include download-button.html link="https://mega.nz/file/bpMl0YqL#xN2HAPAnvbJOt7ASNzblCwujXIUN0b2NnlvWdLaiol0" %}
 
-![](https://cdn.discordapp.com/attachments/749367116591005856/779520878810759178/image.png)
+![Preview of Windows 2000 welcome screen](https://cdn.discordapp.com/attachments/749367116591005856/779520878810759178/image.png)
 
 ### ReactOS
 
-<img src="https://media.discordapp.net/attachments/749367116591005856/786749265967185940/unknown.png" alt="Picture of ReactOS branded welcome screen">
+<img src="https://media.discordapp.net/attachments/749367116591005856/786749265967185940/unknown.png" alt="Preview of React OS branded welcome screen">
