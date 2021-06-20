@@ -32,13 +32,17 @@
                 <div class="title-bar-text">{{page.title | default: "Untitled"}}</div>
             </div>
             <div class="window-body">
+                {% unless page.hide-navigation %}
                 {% include nav.html %}
+                {% endunless %}
                 <div>
                     {{content}}
                 </div>
+                {% unless page.hide-statusbar %}
                 <footer class="statusbar">
                     <span class="statusbar-box">Page generated on {{ "now" | date: "%Y-%m-%d %H:%M" }}</span>
                 </footer>
+                {% endunless %}
             </div>
         </div>
     </div>
