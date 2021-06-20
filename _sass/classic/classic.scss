@@ -27,7 +27,7 @@
 
 u {
     text-decoration: none;
-    border-bottom: .5px solid #222
+    border-bottom: .5px solid $control-text;
 }
 
 a {
@@ -413,9 +413,8 @@ menu[role=tablist].justified button {
 }
 
 body {
-    font-family: Arial;
-    font-size: 12px;
-    color: #222
+    @include ui-font;
+    color: $control-text;
 }
 
 @media (not(hover)) {
