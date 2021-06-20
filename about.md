@@ -1,6 +1,7 @@
 ---
 layout: "document"
 title: "About"
+icon: "/assets/ico/question_16.png"
 ---
 
 ## Contributing

@@ -1,6 +1,7 @@
 ---
 layout: document
 title: "Application Theming"
+icon: "/assets/ico/exe_16.png"
 ---
 
 # Application Theming

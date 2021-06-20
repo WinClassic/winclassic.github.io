@@ -1,6 +1,8 @@
 ---
 layout: document
-title: "Guide for SCT"
+title: "Guide for Simple Classic Theme"
+short-title: "Guide for SCT"
+icon: "/assets/ico/sct_16.png"
 ---
 
 # UNFINISHED WORK.<br>

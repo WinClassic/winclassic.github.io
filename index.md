@@ -1,6 +1,7 @@
 ---
 layout: document
 title: "Home"
+icon: "/assets/ico/home_16.png"
 ---
 
 # Welcome to winclassic.github.io!

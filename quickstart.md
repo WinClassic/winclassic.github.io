@@ -1,6 +1,8 @@
 ---
 layout: document
 title: "Quick Start Guide to using Classic Theme on Windows 8/8.1, 10 and 11"
+short-title: "Quick Start"
+icon: "/assets/ico/help_16.png"
 ---
 
 # Quick Start Guide to using Classic Theme on Windows 8/8.1, 10 and 11

@@ -1,6 +1,7 @@
 ---
 layout: document
 title: "Resources"
+icon: "/assets/ico/dll_16.png"
 ---
 
 # Resources

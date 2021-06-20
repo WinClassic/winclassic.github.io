@@ -3,9 +3,10 @@
         {% assign pages = site.pages | sort: "title" %}
         {% for page in pages %}
         {% if page.title %}{% unless page.hidden %}
+        {% assign title = page.short-title | default: page.title %}
         <li>
             <a href="{{ page.url }}">
-                <img src="/assets/ico/txt_16.png" width=16 height=16 alt=""> {{ page.title }}
+                <img src="{{ page.icon | default: '/assets/ico/txt_16.png' }}" width=16 height=16 alt=""> {{ title }}
             </a>
         </li>
         {% endunless %}{% endif %}
