@@ -51,4 +51,4 @@ Save it and apply.
 
 You can use [Iconoid](http://www.sillysot.com/) to customize the appearance of the icon labels (text color and background). It has more features like a "Show desktop" hot corner, saving desktop layout and rearranging your icons.
 
-<img alt="Screenshot of Iconoid" src="/assets/img/iconoid.png">
+<img alt="Screenshot of Iconoid" width=341 height=317 src="/assets/img/iconoid.png">
