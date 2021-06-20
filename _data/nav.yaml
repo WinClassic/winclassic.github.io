@@ -11,11 +11,8 @@
   img: "/assets/ico/exe_16.png"
   link: "/app-theming"
 
-- name: "WinClassic Forums"
-  img: "/assets/ico/winclassic_16.png"
-  link: "https://winclassic.boards.net/"
-  newGroup: true
 
 - name: "About"
   img: "/assets/ico/question_16.png"
   link: "/about"
+  newGroup: true
