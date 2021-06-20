@@ -44,7 +44,6 @@
 
     th {
         @include raised-button;
-        @include ui-font;
 
         background: $control;
         font-weight: normal;
@@ -65,5 +64,10 @@
 
     img, td {
         vertical-align: middle;
+    }
+
+    img {
+        width: 16px;
+        height: 16px;
     }
 }
