@@ -1,6 +1,7 @@
 <nav class="start-menu">
     <ul class="icon-list">
-        {% for page in site.pages %}
+        {% assign pages = site.pages | where: "title" | sort: "title" %}
+        {% for page in pages %}
         {% unless page.hidden %}
         <li>
             <a href="{{ page.url }}">
