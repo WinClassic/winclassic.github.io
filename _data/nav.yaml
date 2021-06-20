@@ -11,6 +11,9 @@
   img: "/assets/ico/exe_16.png"
   link: "/app-theming"
 
+- name: "Resources"
+  img: "/assets/ico/dll_16.png"
+  link: "/resources"
 
 - name: "About"
   img: "/assets/ico/question_16.png"
