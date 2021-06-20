@@ -43,4 +43,11 @@ Open the `.msstyles` file for the theme you are using with Windows Style Builder
 
 Now set `Toolbars, Headers and Rebar > Rebar > NavBar > Basic > Base > Band` to `CONTENTMARGINS:MARGIN (0, 0, 0, -33)`.
 
-Save it and apply.
+
+## Windows Explorer (Shell)
+
+### Customizing desktop icon labels
+
+You can use [Iconoid](http://www.sillysot.com/) to customize the appearance of the icon labels (text color and background). It has more features like a "Show desktop" hot corner, saving desktop layout and rearranging your icons.
+
+<img alt="Screenshot of Iconoid" src="/assets/img/iconoid.png">
