@@ -1,0 +1,25 @@
+.file-grid {
+    display: grid;
+    grid-gap: 0;
+    grid-template-columns: repeat(auto-fit, 80px);
+}
+
+.file {
+    @include ui-font;
+    width: 80px;
+    height: 73px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    // hide link
+    color: $control-text;
+    
+    // prevent text overflow
+    overflow-wrap: break-word;
+
+    img {
+        margin: 0 auto;
+        margin-bottom: 6px;
+    }
+}

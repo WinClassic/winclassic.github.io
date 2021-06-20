@@ -13,6 +13,7 @@ hidden: true
 @import 'taskbar.scss';
 @import 'navigation.scss';
 @import 'example-controls.scss';
+@import 'pages/files.scss';
 
 body {
     @include ui-font;

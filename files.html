@@ -1,0 +1,14 @@
+---
+title: "File Explorer"
+layout: document
+---
+
+<div class="file-grid">
+    {% assign files = site.static_files | where: "user-file", true %}
+    {% for file in files %}
+    <a class="file" href="{{file.path}}">
+        <img src="assets/ico/{{file.extname | split: '.'}}_32.png" width=32 height=32>
+        <span>{{file.name}}</span>
+    </a>
+    {% endfor %}
+</div>

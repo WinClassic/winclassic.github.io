@@ -11,5 +11,11 @@ excerpt_separator: <!--more-->
 sass:
   style: compressed
 
+defaults:
+  - scope:
+      path: "assets/files"
+    values:
+      user-file: true
+
 exclude:
   - ".vs"
