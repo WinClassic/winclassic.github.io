@@ -13,7 +13,7 @@ This guide helps you give your applications a more classic feel.
 
 To achieve this, follow these steps:
 
-1. Open System Properties (the quickest way is to run <span class="example-textbox">SystemPropertiesAdvanced</span> in the run box)
+1. Open System Properties (the quickest way is to run <span class="example-textbox">sysdm.cpl</span> or <span class="example-textbox">SystemPropertiesAdvanced</span> in the run box)
    
 2. In the "Advanced" tab, click on <span class="example-button">Enviro<u>n</u>ment Variables...</span>.
 
