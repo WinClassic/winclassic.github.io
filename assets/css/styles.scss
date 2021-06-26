@@ -52,7 +52,8 @@ vr {
 pre {
     @include sunken;
     background: $window;
-    padding: 4px;
+    padding: 4px;    
+    overflow-x: auto;
 }
 
 code {
