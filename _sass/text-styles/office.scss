@@ -1,0 +1,29 @@
+
+.document {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Arial', sans-serif;
+    }
+
+    h1 {
+        font-size: 14pt;
+        font-weight: bold;
+    }
+
+    h2 {
+        font-size: 12pt;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    h3 {
+        font-size: 12pt;
+        font-weight: normal;
+    }
+
+    table {
+        font-size: 10pt;
+    }
+}

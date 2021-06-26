@@ -22,5 +22,7 @@ $selected-text: white;
 $ui-font-family: 'MS Sans Serif', sans-serif;
 $ui-font-size: 8pt;
 
-$code-font-family: 'Lucida Console', 'Consolas', monospace;
-$code-font-size: 8pt;
+$code-font-family: 'Courier New', monospace;
+$code-font-size: 10pt;
+
+@import "text-styles/office.scss";

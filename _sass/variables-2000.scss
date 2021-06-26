@@ -3,7 +3,7 @@ $control-dark-dark: #404040;
 $control-dark: #808080;
 $control: #d4d0c8;
 $control-light: #d4d0c8;
-$control-light-light: white;
+$control-light-light: #ffffff;
 
 $control-text: black;
 $gray-text: gray;
@@ -12,12 +12,17 @@ $active-caption: #0a246a;
 $gradient-active-caption: #a6caf0;
 
 $desktop: #3a6ea5;
-$window: white;
+$window: #ffffff;
 $tooltip: #ffffe1;
+
+$selected: navy;
+$selected-text: #ffffff;
 
 // Fonts
 $ui-font-family: 'Tahoma', sans-serif;
 $ui-font-size: 8pt;
 
-$code-font-family: 'Lucida Console', 'Consolas', monospace;
-$code-font-size: 8pt;
+$code-font-family: 'Courier New', monospace;
+$code-font-size: 10pt;
+
+@import "text-styles/office-2000.scss";

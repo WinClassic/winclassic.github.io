@@ -1,0 +1,27 @@
+// Taken from Word 2000
+.document {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bold;
+        
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: always;
+        text-rendering: optimizeLegibility;
+
+        margin-block-start: 12pt;
+        margin-block-end: 3pt;
+    }
+
+    h1, h2, h3 { font-family: 'Arial', sans-serif; }
+    h1 { font-size: 16pt; }
+    h2 { font-size: 14pt; font-style: italic; }
+    h3 { font-size: 13pt; }
+    h4 { font-size: 14pt; }
+    h5 { font-size: 13pt; font-style: italic; }
+    h6 { font-size: 11pt; }
+
+    code {}
+}
