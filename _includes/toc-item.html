@@ -1,0 +1,18 @@
+<li>
+    {% assign fallbackLink = include.item.name | replace: " ", "-" | prepend: "#" | downcase %}
+    {% assign link = include.item.link | default: fallbackLink %}
+    {% if include.item.subitems %}
+    <details>
+        <summary>
+            <a href="{{ link }}">{{ include.item.name }}</a>
+        </summary>
+        <ul>
+            {% for s in include.item.subitems %}
+            {% include toc-item.html item=s %}
+            {% endfor %}
+        </ul>
+    </details>
+    {% else %}
+    <a href="{{ link }}">{{ include.item.name }}</a>
+    {% endif %}
+</li>

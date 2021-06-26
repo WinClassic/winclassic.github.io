@@ -2,10 +2,22 @@
 layout: default
 ---
 
-<div class="inset">
-    <div class="document">
-        <div class="document-content">
-            {{content}}
-        </div>
-    </div>
-</div>
+<table style="width:100%;border-collapse:collapse;">
+    <tr>
+        <td class="document-cell">
+            <div class="inset">
+                <div class="document">
+                    <div class="document-content">
+                        {{content}}
+                    </div>
+                </div>
+            </div>
+        </td>
+        {% if page.toc %}
+        <td class="toc-cell">
+            <b>Table of contents</b>
+            {% include toc.html %}
+        </td>
+        {% endif %}
+    </tr>
+</table>

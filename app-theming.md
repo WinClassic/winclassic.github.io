@@ -2,6 +2,8 @@
 layout: document
 title: "Application Theming"
 icon: "/assets/ico/exe_16.png"
+toc:
+- name: "Ripcord"
 ---
 
 # Application Theming
