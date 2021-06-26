@@ -31,11 +31,9 @@ u {
 }
 
 a {
-    color: #00f
-}
-
-a:focus {
-    outline: 1px dotted #00f
+    &:link {color: blue}
+    &:visited { color: purple; }
+    &:focus { outline: 1px dotted blue; }
 }
 
 summary:focus {
