@@ -2,7 +2,7 @@
     overflow-y: auto;
 
     table {
-        font-size: 10pt;
+        // font-size: 10pt;
         border-collapse: collapse;
 
         ul {
@@ -17,6 +17,10 @@
     /* Reduce indent for text inside cells */
     table > * {
         vertical-align: top;
+    }
+
+    th, td {
+        padding: 2px;
     }
 
     th {
