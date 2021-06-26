@@ -86,3 +86,20 @@ icon: "/assets/ico/dll_16.png"
 ### ReactOS
 
 <img src="https://media.discordapp.net/attachments/749367116591005856/786749265967185940/unknown.png" alt="Preview of React OS branded welcome screen">
+
+# Quero skins
+
+- Windows 98
+  {% include download-button.html link="https://winclassic.boards.net/attachment/download/824" %}
+
+  <img alt="" src="/assets/img/quero-98.png">
+
+- Windows 2000
+  {% include download-button.html link="https://winclassic.boards.net/attachment/download/822" %}
+
+  <img alt="" src="/assets/img/quero-2000.png">
+
+- Windows 2000 (Tahoma)
+  {% include download-button.html link="https://winclassic.boards.net/attachment/download/823" %}
+
+  <img alt="" src="/assets/img/quero-2000-tahoma.png">
