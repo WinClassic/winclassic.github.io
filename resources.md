@@ -61,7 +61,7 @@ icon: "/assets/ico/dll_16.png"
 ### Windows Chicago Wallpapers
 {% include download-button.html link="https://winclassic.boards.net/attachment/download/853" %}
 
-![Preview of wallpapers](/assets/img/windows-chicago-wallpaper-preview.png)
+<img alt="Preview of wallpapers" src="/assets/img/windows-chicago-wallpaper-preview.png" width="100%">
 
 ## Welcome Screens
 
