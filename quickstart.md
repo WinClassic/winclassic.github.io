@@ -289,10 +289,10 @@ Link: <https://winaero.com/winaero-tweaker/>
 
     You need an old dialog from a Windows NT 5.0 beta that has been modified to work with modern Windows setups. Look in the ["Tweaks & Additional Software"](#tweaks) portion of this Quick Guide. Note: if you use SimpleClassicTheme or 6sicsix’s Classic Theme Script, this is already installed for you.   
 
-8. ** I enabled Classic theme on Windows 8.1 and everything went well, but on when I restarted my computer, the taskbar is now bleach white! How do I fix it?**
+8. **I enabled Classic theme on Windows 8.1 and everything went well, but on when I restarted my computer, the taskbar is now bleach white! How do I fix it?**
    
     This is a common issue with W8.1 when using Classic theme. To sort it out, try any of the solutions in this thread: <https://winclassic.boards.net/thread/760/w8-1-classic-taskbar-white>
     
 9. **I'm on Windows 10 Enterprise LTSC 2019, and when I enable Classic theme, Explorer breaks and freezes! What do I do?**    
 
-    Microsoft broke Classic theme in Win10 build 1809 by removing a system file it relies on; LTSC 2019 is based on this build. *It's strongly advised to disable classic theme if you plan to continue using this version of Windows.* See this thread for additional information on this issue: <https://winclassic.boards.net/thread/343/1809-kills-explorer-classic-theme>
+    Microsoft broke Classic theme in Win10 build 1809 by removing a system file it relies on; LTSC 2019 is based on this build. **It's strongly advised to disable classic theme if you plan to continue using this version of Windows.** See this thread for additional information on this issue: <https://winclassic.boards.net/thread/343/1809-kills-explorer-classic-theme>
