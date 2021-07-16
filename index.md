@@ -14,6 +14,12 @@ icon: "/assets/ico/home_16.png"
     <span>Helps you get classic theme installed. Written by Clasurol/Jackal.</span>
 </a>
 
+<a class="home-shortcut" href="/quickstart">
+    <img src="/assets/ico/sct_32.png" style="float:left;" alt="" />
+    <span>Simple Classic Theme Guide</span>
+    <span>Also helps you to get Classic Theme installed. But Simple! Written by Leet (1337ftw).</span>
+</a>
+
 <!--more-->
 
 ## Software written by the community
