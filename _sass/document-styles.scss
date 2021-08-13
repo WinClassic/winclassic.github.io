@@ -33,6 +33,16 @@
     }
 }
 
+.document-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.document-cell {
+    width: 100%;
+}
+
 .document-content {
     padding: 10px;
     padding-block-start: 8px;

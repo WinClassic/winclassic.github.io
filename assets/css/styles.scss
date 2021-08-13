@@ -77,11 +77,19 @@ figure.highlight {
     width: 100%;
 }
 
+.toc-container {
+    height: 100%;
+    background-color: $window;
+    padding: 3px;
+    @include sunken;
+}
+
 .toc-cell {
     @include ui-font;
-    width: 150px;
+    width: 200px;
     display: flex;
     flex-direction: column;
+    padding-left: 3px;
 }
 
 .icon-grid {
@@ -188,10 +196,6 @@ figure.highlight {
         width: 32px;
         height: 32px;
     }
-}
-
-.document-cell {
-    width: 100%;
 }
 
 .gray {
