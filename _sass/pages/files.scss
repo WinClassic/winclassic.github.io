@@ -12,11 +12,17 @@
     display: flex;
     flex-direction: column;
 
-    // hide link
-    color: $control-text;
+    &:link {
+        color: $control-text;
+    }
+    &:hover {
+        color: darkblue;
+    }
     
     // prevent text overflow
     overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     img {
         margin: 0 auto;
