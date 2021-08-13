@@ -205,7 +205,7 @@ In recent Windows 10 builds the address bar has had some changes made to it that
 
 Link: <http://www.quero.at/>
 
-Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
+Skins for Quero: [Resources > Quero skins](/resources#quero-skins)
 
 {%
     include balloon.html
@@ -223,7 +223,7 @@ Windows killed off the logon/logoff and Startup sounds starting from Windows 7. 
 
 Windows 9x/early NT allowed you to have color backgrounds to the text of desktop icons. This feature was removed in Vista, but can restored using third party applications. You need to disable drop shadows first for these to work though.
 
-Link: <https://winclassic.boards.net/thread/243/customizing-desktop-font-color-windows>
+To find out more, visit [Application Theming > Customizing desktop icon labels](/app-theming#customizing-desktop-icon-labels).
 
 ### Classic Display Properties Dialog
 
