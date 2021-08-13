@@ -194,4 +194,34 @@ figure.highlight {
     width: 100%;
 }
 
+.icon-table {
+    td, th {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+        padding: 0 2px;
+    }
+    img {
+        width: 32px;
+        height: 32px;
+
+        top: 2px;
+        position: relative;
+    }
+}
+
+.icon-table-publisher {
+  vertical-align: middle;
+
+  span {
+    display: inline-block;
+    writing-mode: sideways-lr;
+    // filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    // -webkit-transform: rotate(270deg);
+    // -ms-transform: rotate(270deg);
+    // transform: rotate(270deg);
+  }
 }
