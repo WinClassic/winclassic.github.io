@@ -1,0 +1,12 @@
+{% assign thread = site.data.threads[include.thread] %}
+{% assign author = site.data.users[thread.author] %}
+{% capture description %}
+<a href="https://winclassic.boards.net/thread/{{include.thread}}">{{thread.title}}</a> by <a
+    href="https://winclassic.boards.net/user/{{thread.author}}">{{author}}</a>
+{% endcapture %}
+{%
+    include balloon.html
+    title="Thread"
+    description=description
+    icon="balloon_16.png"
+%}

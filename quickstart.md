@@ -217,7 +217,7 @@ Skins for Quero: <https://winclassic.boards.net/thread/756/resource-library>
 
 Windows killed off the logon/logoff and Startup sounds starting from Windows 7. To restore these without resorting to registry tweaks or using other dubious methods, you can use "ClassicSounds", a simple program that adds itself as a service and enables the sounds to play properly.
 
-Link: <https://winclassic.boards.net/thread/329/w10-restore-logon-shutdown-sounds>
+{% include thread.html thread=329 %}
 
 ### Customize Desktop Icon Font Color/Restore Desktop Color Backgrounds
 
@@ -229,8 +229,7 @@ Link: <https://winclassic.boards.net/thread/243/customizing-desktop-font-color-w
 
 Adjusting Classic theme from within Windows 8/8.1/10/11 is no longer possible by default because Microsoft removed support for it in the Personalization panel/Settings. You can restore the ability to customize Classic Theme by using an old dialog from Windows 95 which still works under modern Windows. 
 
-Link: <https://winclassic.boards.net/thread/906/display-properties-deskn>
-
+{% include thread.html thread=906 %}
 {%
     include balloon.html
     title="Display Properties Additional Information"

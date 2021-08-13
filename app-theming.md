@@ -32,7 +32,7 @@ The Windows Explorer has changed over the years, changing layout and gaining fea
 
 ### Removing the navigation bar
 
-*Original thread ["Removing the Navigation Bar from Windows Explorer"](https://winclassic.boards.net/thread/132/removing-navigation-bar-windows-explorer) by [anixx](https://winclassic.boards.net/user/3).*
+{% include thread.html thread=132 %}
 
 Since Windows Vista, Microsoft does not provide convenient means to remove or hide the Navigation Bar. The Navigation Bar is the bar that includes the navigation buttons (forward, back), the address bar and the search bar.
 
