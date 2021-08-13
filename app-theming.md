@@ -48,6 +48,52 @@ Now set `Toolbars, Headers and Rebar > Rebar > NavBar > Basic > Base > Band` to 
 
 Save it and apply.
 
+
+### 32px icons with labels
+
+{% include thread.html thread=160 %}
+
+<table class="compat-table">
+    <tr>
+        <th>Feature / Method</th>
+        <th>Desktop Mode</th>
+        <th>AutoHotKey</th>
+    </tr>
+    <tr>
+        <th>Applies to</th>
+        <td>Normal folders (i.e. filesystem folders)</td>
+        <td>All folders (including special ones)</td>
+    </tr>
+    <tr>
+        <th>Icon Arrangement</th>
+        <td><img src="/assets/ico/deny_circle_16.png"> Not remembered</td>
+        <td><img src="/assets/ico/check_circle_16.png"> Remembered</td>
+    </tr>
+    <tr>
+        <th>Grouping</th>
+        <td><img src="/assets/ico/deny_circle_16.png"> Doesn't work</td>
+        <td><img src="/assets/ico/check_circle_16.png"> Works</td>
+    </tr>
+    <tr>
+        <th>Labels when changing view</th>
+        <td>
+            <img src="/assets/ico/check_circle_16.png"> The labels become below immediately, no need to reopen folder
+        </td>
+        <td>
+            <img src="/assets/ico/warning_circle_16.png"> The labels are not below until the folder window reopened
+        </td>
+    </tr>
+    <tr>
+        <th>Label delay</th>
+        <td>
+            <img src="/assets/ico/check_circle_16.png"> When opening a folder, the icons are 32px with labels below instantly
+        </td>
+        <td>
+            <img src="/assets/ico/warning_circle_16.png"> Small delay after opening the folder: initially the labels are to the right, but then become below
+        </td>
+    </tr>
+</table>
+
 ### Classic toolbar borders
 
 {% include thread.html thread=244 %}
