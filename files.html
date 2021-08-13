@@ -8,7 +8,11 @@ icon: "/assets/ico/explorer_16.png"
     {% assign files = site.static_files | where: "user-file", true %}
     {% for file in files %}
     <a class="file" href="{{file.path}}">
+        {% if file.extname == ".ico" %}
+        <img src="{{file.path}}" width=32 height=32>
+        {% else %}
         <img src="assets/ico/{{file.extname | split: '.'}}_32.png" width=32 height=32>
+        {% endif %}
         <span>{{file.name}}</span>
     </a>
     {% endfor %}

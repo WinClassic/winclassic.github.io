@@ -55,6 +55,9 @@ icon: "/assets/ico/dll_16.png"
     <img src="/assets/ico/office/2013_powerpoint_32.png" alt="">
     </div>
 
+### Old Application Icons
+
+Visit its dedicated page [here](/icons).
 
 ## Wallpapers
 
