@@ -65,24 +65,27 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <td colspan=2><img alt="" src="/assets/files/icons/2009/mozilla/thunderbird.ico" ></td>
   </tr>
   <tr>
-    <th rowspan=5 class="icon-table-publisher"><span> FutureSplash, Macromedia</span></th>
+    <th rowspan=5 class="icon-table-publisher"><span> FutureSplash, Macromedia, Adobe</span></th>
     <th>Animator, Flash</th>
     <td colspan=5 class="gray"></td>
     <td colspan=4><img alt="" src="/assets/files/icons/1996/futuresplash/animator.ico"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/1999/macromedia/flash.ico"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/2003/macromedia/flash.ico"></td>
-    <td><img alt="" src="/assets/files/icons/2005/macromedia/flash.ico"></td>
+    <td colspan=2><img alt="" src="/assets/files/icons/2005/macromedia/flash.ico"></td>
+	<td><img alt="" src="/assets/files/icons/2007/flash/flash.ico"></td>
   </tr>
   <tr>
     <th>.FLA</th>
     <td colspan=9 class="gray"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/1999/macromedia/fla.ico"></td>
-    <td colspan=4><img alt="" src="/assets/files/icons/2003/macromedia/fla.ico"></td>
+    <td colspan=5><img alt="" src="/assets/files/icons/2003/macromedia/fla.ico"></td>
+	<td><img alt="" src="/assets/files/icons/2007/adobe/fla.ico"></td>
   </tr>
   <tr>
     <th>.AS</th>
     <td colspan=12 class="gray"></td>
-    <td colspan=4><img alt="" src="/assets/files/icons/2003/macromedia/as.ico"></td>
+    <td colspan=5><img alt="" src="/assets/files/icons/2003/macromedia/as.ico"></td>
+	<td><img alt="" src="/assets/files/icons/2007/adobe/as.ico"></td>
   </tr>
   <tr>
     <th>Flash<br>Player</th>
@@ -94,7 +97,8 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <th>.SPL<br>.SWF</th>
     <td colspan=9 class="gray"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/1999/macromedia/swf.ico"></td>
-    <td colspan=4><img alt="" src="/assets/files/icons/2003/macromedia/swf.ico"></td>
+    <td colspan=5><img alt="" src="/assets/files/icons/2003/macromedia/swf.ico"></td>
+	<td><img alt="" src="/assets/files/icons/2007/adobe/swf.ico"><img alt="" src="/assets/files/icons/2007/adobe/swf-alt.ico"></td>
   </tr>
 </table>
 
