@@ -72,7 +72,7 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <td colspan=3><img alt="" src="/assets/files/icons/1999/macromedia/flash.ico"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/2003/macromedia/flash.ico"></td>
     <td colspan=2><img alt="" src="/assets/files/icons/2005/macromedia/flash.ico"></td>
-	<td><img alt="" src="/assets/files/icons/2007/flash/flash.ico"></td>
+	<td><img alt="" src="/assets/files/icons/2007/adobe/flash.ico"></td>
   </tr>
   <tr>
     <th>.FLA</th>
