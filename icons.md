@@ -91,7 +91,7 @@ To download, right click on the icon and click on "Save image", make sure it dow
     <th>Flash<br>Player</th>
     <td colspan=9 class="gray"></td>
     <td colspan=3><img alt="" src="/assets/files/icons/1999/macromedia/flash-player.ico"></td>
-    <td colspan=4><img alt="" src="/assets/files/icons/2003/macromedia/flash-player.ico"></td>
+    <td colspan=5><img alt="" src="/assets/files/icons/2003/macromedia/flash-player.ico"></td>
   </tr>
   <tr>
     <th>.SPL<br>.SWF</th>
