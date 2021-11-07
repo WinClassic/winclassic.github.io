@@ -4,6 +4,8 @@ title: "Application Theming"
 icon: "/assets/ico/exe_16.png"
 toc:
 - name: "Ripcord"
+- name: "Windows Explorer"
+- name: "Windows Explorer (Shell)"
 ---
 
 # Application Theming
@@ -108,3 +110,57 @@ You can use [Iconoid](http://www.sillysot.com/) to customize the appearance of t
 
 <img alt="Screenshot of Iconoid" width=341 height=317 src="/assets/img/iconoid.png">
 
+## Your own application
+
+Adding support for Classic Theme in your own application is very easy to do. You just need to be sure that your application doesn't rely on any visual styles from DWM and/or UxTheme. Here are the code examples:
+
+### C# application wide:
+
+```
+[DllImport("uxtheme.dll", CharSet = CharSet.Auto)]
+public static extern void SetThemeAppProperties(int Flags);
+
+public static void DisableVisualStyles()
+{
+    // 0 means no flags are set so nothing will be themed
+    SetThemeAppProperties(0);
+}
+```
+
+### C/C++ application wide:
+
+```
+#include <windows.h>
+
+void DisableVisualStyles()
+{
+    // 0 means no flags are set so nothing will be themed
+    SetThemeAppProperties(NULL);
+}
+```
+
+### C# per-window:
+
+```
+[DllImport("uxtheme.dll", CharSet = CharSet.Unicode)]
+public static extern void SetWindowTheme(IntPtr hWnd, string pszSubAppName, string pszSubIdList);
+
+// You can get an IntPtr from a Form using Form.Handle
+public static void DisableVisualStylesForWindow(IntPtr hWnd)
+{
+    // Empty means that no theme will be applied
+    SetWindowTheme(hWnd, " ", " ");
+}
+```
+
+### C/C++ per-window:
+
+```
+#include <windows.h>
+
+void DisableVisualStylesForWindow(HWND hWnd)
+{
+    // Empty means that no theme will be applied
+    SetWindowTheme(hWnd, L" ", L" ");
+}
+```
