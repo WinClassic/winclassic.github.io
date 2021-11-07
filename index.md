@@ -24,6 +24,7 @@ icon: "/assets/ico/home_16.png"
 
 ## Software written by the community
 
+- [ClassicThemeTray](https://winclassic.boards.net/thread/510/classicthemetray-quickly-toggle-classic-theme) ([github](https://github.com/spitfirex86/ClassicThemeTray))
 - [SimpleClassicTheme](https://winclassic.boards.net/thread/456/reversibly-enable-disable-classic-simple) ([github](https://github.com/WinClassic/SimpleClassicTheme))
 - SimpleClassicThemeTaskbar ([github](https://github.com/WinClassic/SimpleClassicThemeTaskbar))
 
