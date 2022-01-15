@@ -1,5 +1,4 @@
 .document {
-    max-width: 786px;
     overflow: auto;
 
     table {
@@ -46,8 +45,7 @@
 .document-content {
     padding: 10px;
     padding-block-start: 8px;
-    height: 500px;
-    max-height: calc(100vh - 76px);
+    max-height: calc(100vh - 173px);
 }
 
 .compat-table {
