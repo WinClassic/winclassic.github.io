@@ -48,6 +48,10 @@
     max-height: calc(100vh - 173px);
 }
 
+.document-content img {
+    max-width:100%;
+}
+
 .compat-table {
     width: 100%;
     text-align: center;
