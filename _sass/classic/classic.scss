@@ -288,6 +288,8 @@ input[type=range].has-box-indicator::-moz-range-thumb {
     font-size: 11px;
     background: $control;
     padding: 3px
+    max-width: 12in;
+    margin: 0 auto;
 }
 
 .window fieldset {
